@@ -1,0 +1,171 @@
+.header {
+	min-width: 1170px;
+	&:before {
+		content:'';
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left:0;
+		right: 0;
+		background-color: rgba(193,193,193,0.5);
+	}
+}
+.header-wrap {
+	position: relative;
+	max-width: 1170px;
+	min-width: 1170px;
+	margin: 0 auto;
+	z-index: 1;
+}
+.contacts-list {
+	margin: 0;
+	padding: 16px 0;
+	list-style: none;
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid #fff;
+}
+.contacts-link {
+	padding:  0 16px;
+	font-weight: bold;
+	border-left: 1px solid #fff;
+	a {
+		color: #fff;
+		text-decoration: none;
+		transition: all 0.3s;
+		&:hover {
+			color:#009E1C;
+		}
+	}
+}
+.tel-icon {
+	position: relative;
+	margin-left: 16px;
+	border: none;
+	&:before {
+		content:'';
+		position: absolute;
+		height: 22px;
+		width: 22px;
+		background-image: url('../../img/phone.png');
+		background-position: center;
+		background-size: cover;
+		left: -16px;
+		top: 0;
+	}
+}
+.mail-icon {
+	position: relative;
+	margin-left: 16px;
+	border: none;
+	&:before {
+		content:'';
+		position: absolute;
+		height: 18px;
+		width: 24px;
+		background-image: url('../../img/mail.png');
+		background-position: center;
+		background-size: cover;
+		left: -16px;
+		top: 0;
+	}
+}
+.header-nav {
+	display: flex;
+	padding: 16px 0;
+}
+.nav-link {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	text-decoration: none;
+	margin-right: 48px;
+	color: #fff;
+	transition: all 0.3s;
+	letter-spacing: 2px;
+	&:hover {
+			color:#009E1C;
+		}
+}
+.sing-in__enter {
+	margin-left: auto;
+	position: relative;
+	border: none;
+	&:before {
+		content:'';
+		position: absolute;
+		height: 21px;
+		width: 21px;
+		background-image: url('../../img/enter.png');
+		background-position: center;
+		background-size: cover;
+		left: -30px;
+		top: 0;
+	}
+}
+.sing-in__registr {
+	position: relative;
+	border: none;
+	&:before {
+		content:'';
+		position: absolute;
+		height: 23px;
+		width: 20px;
+		background-image: url('../../img/man.png');
+		background-position: center;
+		background-size: cover;
+		left: -30px;
+		top: 0;
+	}
+}
+.call-back {
+	margin-left: auto;
+	text-decoration: none;
+	font-size: 11PX;
+	color:#009E1C;
+	border: 1px solid #009E1C;
+	padding: 11px 22px;
+	transition: all 0.3s;
+	&:hover {
+		background-color: #009E1C;
+		color: #fff;
+		border: 1px solid #fff;
+	}
+}
+.center-logo-wrap {
+	text-align: center;
+	margin: 0 auto;
+	padding: 20px 0 100px 0;
+}
+.header-video {
+	object-fit: cover;
+    width:100%;
+	height: 600px;
+	position: absolute;
+}
+.arrow {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-bottom: 200px;
+  background-color: #fff;
+}
+.arrow:before,
+.arrow:after {
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  width: 50%;
+  padding-bottom: inherit;
+  background-color: inherit;
+}
+.arrow:before {
+  right: 50%;
+  transform-origin: 100% 100%;
+  transform: skewX(80deg);
+}
+.arrow:after {
+  left: 50%;
+  transform-origin: 0 100%;
+  transform: skewX(-80deg);
+}

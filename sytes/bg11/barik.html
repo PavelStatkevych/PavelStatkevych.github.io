@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ren Tattoo</title>
+	<link rel="shortcut icon" href=".//images/small.png" type="image/png">
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src=".//js/jquery.js"></script>
+	<script type="text/javascript" src=".//js/script.js"></script>
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li>
+					<img src=".//images/logo.png" alt="REN TATTOO STUDIO">
+				</li>
+				<li>
+					<p>+38 (099) 461 16 28</p>
+					<p>+38 (067) 207 39 63</p>
+				</li>
+				<li><a href="">Услуги</a></li>
+				<li><a href="">Мастера</a></li>
+				<li><a href="">Галерея</a></li>
+				<li><a href="">Контакты</a></li>
+				<li><a href="">Тату оборудование</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section class="slider-section">
+		<div class="under-header">
+			<img src=".//images/head-logo.png" alt="logo">
+			<ul>
+				<a href="#"><li><img src=".//images/vk-ico.png" alt="VK"></li></a>
+				<a href="#"><li><img src=".//images/fb-ico.png" alt="FB"></li></a>
+				<a href="#"><li><img src=".//images/mail-ico.png" alt="MAIL"></li></a>
+			</ul>
+		</div>
+		<div class="slider">
+			<div class="slide" id="slide-img"></div>
+			<button type="button" id="slider-button-left" class="slider-button">
+				<img src=".//images/button-left.png" alt="Btn-left">
+			</button>
+			<button type="button" id="slider-button-right" class="slider-button">
+				<img src=".//images/button-right.png" alt="Btn-right">
+			</button>
+		</div>
+	</section>
+	<section class="service-section">
+		<div class="service">
+			<div class="service-logo"><h1>Услуги</h1></div>
+			<ul>
+				<li>
+					<div id="hold" class="img-wrapper">
+						<img src=".//images/service-ico1.png" alt="ico">
+					</div>
+					<h2>Художественная таттуировка</h2>
+					<a href="#hold" onclick="openTab('tatto')"><p>Подробнее ↲</p></a>
+				</li>
+
+				<li>
+					<div class="img-wrapper">
+						<img src=".//images/service-ico2.png" alt="ico">
+					</div>
+					<h2>Перманентный макияж</h2>
+					<a href="#hold" onclick="openTab('permanent')"><p>Подробнее ↲</p></a>
+				</li>
+				<li>
+					<div class="img-wrapper">
+						<img src=".//images/service-ico3.png" alt="ico">
+					</div>
+					<h2>Роспись хной</h2>
+					<a href="#hold" onclick="openTab('hnoy')"><p>Подробнее ↲</p></a>
+				</li>
+				<li>
+					<div class="img-wrapper">
+						<img src=".//images/service-ico4.png" alt="ico">
+					</div>
+					<h2>Тату оборудование и материалы</h2>
+					<a href="#hold" onclick="openTab('material')"><p>Подробнее ↲</p></a>
+				</li>
+			</ul>
+			<div class="master-logo"><h1>Тату мастера</h1></div>
+		</div>
+	</section>
+	<section class="master-section">
+		<div class="master-list">
+			<ul>
+				<li>
+					<a href="#"><div class="face-img face1"></div></a>
+					<p>мастер художественной татуировки</p>
+					<a href="#"><h2>Ренат Богдалов ↲</h2></a>
+					<a target="_blank" href="https://vk.com/r.bogdalov"><img src=".//images/vk-ico.png" alt="VK"></a>
+					<a target="_blank" href=""><img src=".//images/fb-ico.png" alt="FB"></a>
+				</li>
+				<li>
+					<a href="#"><div class="face-img face2"></div></a>
+					<p>мастер художественной татуировки</p>
+					<a href="#"><h2>Алексей Толмацкий ↲</h2></a>
+					<a target="_blank" href="https://vk.com/fantom_tt"><img src=".//images/vk-ico.png" alt="VK"></a>
+					<a target="_blank" href=""><img src=".//images/fb-ico.png" alt="FB"></a>
+				</li>
+				<li>
+					<a href="#"><div class="face-img face3"></div></a>
+					<p>мастер перманентного макияжа</p>
+					<a href="#"><h2>Кристина Ткачук ↲</h2></a>
+					<a target="_blank" href="https://vk.com/soul_of_the_photography"><img src=".//images/vk-ico.png" alt="VK"></a>
+					<a target="_blank" href=""><img src=".//images/fb-ico.png" alt="FB"></a>
+				</li>
+			</ul>
+		</div>
+		<div class="service-logo"><h1>Галерея</h1></div>
+	</section>
+	<section class="gallery-section">
+		<div id="gallery">
+			<a href="#">
+				<div class="image-wrapper">
+					<div class="hoverover"><p>ПОСМОТРЕТЬ</p></div>
+					<img src=".//gallery/im1.png"  class="imege"/>
+					<p class="p-img">Краткое описание, возможно имя автора</p>
+				</div>
+			</a>
+			<a href="#">
+				<div class="image-wrapper">
+					<div class="hoverover"><p>ПОСМОТРЕТЬ</p></div>
+					<img src=".//gallery/im2.png"  class="imege"/>
+					<p class="p-img">Краткое описание, возможно имя автора</p>
+				</div>
+			</a>
+			<a href="#">
+				<div class="image-wrapper">
+					<div class="hoverover"><p>ПОСМОТРЕТЬ</p></div>
+					<img src=".//gallery/im3.png"  class="imege"/>
+					<p class="p-img">Краткое описание, возможно имя автора</p>
+				</div>
+			</a>
+			<a href="#">
+				<div class="image-wrapper">
+					<div class="hoverover"><p>ПОСМОТРЕТЬ</p></div>
+					<img src=".//gallery/im4.png"  class="imege"/>
+					<p class="p-img">Краткое описание, возможно имя автора</p>
+				</div>
+			</a>
+			<a href="#">
+				<div class="image-wrapper">
+					<div class="hoverover"><p>ПОСМОТРЕТЬ</p></div>
+					<img src=".//gallery/im4.png"  class="imege"/>
+					<p class="p-img">Краткое описание, возможно имя автора</p>
+				</div>
+			</a>
+			<a href="#">
+				<div class="image-wrapper">
+					<div class="hoverover"><p>ПОСМОТРЕТЬ</p></div>
+					<img src=".//gallery/im3.png"  class="imege"/>
+					<p class="p-img">Краткое описание, возможно имя автора</p>
+				</div>
+			</a>
+			<a href="#">
+				<div class="image-wrapper">
+					<div class="hoverover"><p>ПОСМОТРЕТЬ</p></div>
+					<img src=".//gallery/im2.png"  class="imege"/>
+					<p class="p-img">Краткое описание, возможно имя автора</p>
+				</div>
+			</a>
+			<a href="#">
+				<div class="image-wrapper">
+					<div class="hoverover"><p>ПОСМОТРЕТЬ</p></div>
+					<img src=".//gallery/im1.png"  class="imege"/>
+					<p class="p-img">Краткое описание, возможно имя автора</p>
+				</div>
+			</a>
+		</div>
+	</section>
+	<section class="contact-section">
+		<div class="contact-logo master-logo"><h1>Контакты</h1></div>
+		<div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2739.7572175677205!2d32.615419508093915!3d46.63155832430111!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa5b2bb547589ade5!2z0J_QntCg0KLQoNCV0KIsINCk0J7QotCe0KHQkNCb0J7QnQ!5e0!3m2!1sen!2sth!4v1474535516190" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+		<ul>
+			<li>
+				<p>Ждем Вас по адресу:</p>
+				<h2>г. Херсон ул. Ленина 10</h2>
+			</li>
+			<li>
+				<p>График работы:</p>
+				<h2>ежедневно,<br> с 10:00 до 18:00</h2>
+			</li>
+		</ul>
+		<footer>
+			<ul>
+				<li>
+					<p>+38 (099) 461 16 28</p>
+					<p>+38 (067) 207 39 63</p>
+				</li>
+				<li>
+					<img src=".//images/logo.png" alt="REN TATTOO STUDIO">
+				</li>
+				<li>
+				<img class="last-ico" src=".//images/vk-ico.png" alt="VK">
+				<img class="last-ico" src=".//images/fb-ico.png" alt="FB">
+				<img class="last-ico" src=".//images/mail-ico.png" alt="MAIL">
+				</li>
+			</ul>
+			<p class="copy-rights">© Ren Tattoo Studio, 2016. All rights reserved. Programming P. Statkevych, design B. Orphan.</p>
+		</footer>
+	</section>
+	<script>
+		openTab("tattoo");
+		function openTab(tabName) {
+			var i;
+			var x = document.getElementsByClassName("tab");
+			for (i = 0; i < x.length; i++) {
+				x[i].style.display = "none"; 
+			}
+
+			document.getElementById(tabName).style.display = "block";
+		}
+	</script>
+</body>
+</html>

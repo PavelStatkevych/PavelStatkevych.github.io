@@ -1,0 +1,58 @@
+.about-us {
+	display: block;
+	min-width: 1166px;
+	/*background-image: url('../../img/s-two-bg.jpg');
+	background-repeat: no-repeat;*/
+}
+.abut-us__text-wrapper {
+	display: flex;
+	min-width: 1166px;
+	max-width: 1166px;
+	margin: 0 auto;
+	
+}
+.left-sidebar {
+	width: 60%;
+}
+.right-sidebar {
+	position: relative;
+	width: 40%;
+	margin-left: 30px;
+	position: relative;
+	&:before {
+		content:'';
+		position: absolute;
+		bottom: 10%;
+		left:-20px;
+		/*transform: translateY(-40%);*/
+		display: block;
+		width: 1px;
+		height: 80%;
+		background-color: #b2b2b2;
+		
+	}
+}
+.about-us__text {
+	margin-right: 20px;
+	color: #323232;
+	font-size: 14px;
+	line-height: 21px;
+}
+.list-text {
+	margin-right: 20px;
+	margin: 0;
+	line-height: 21px;
+	color: #575757;
+	font-size: 14px;
+}
+.in-paragraph-list--text {
+	color: #575757;
+}
+.right-sidebar__img {
+	position: absolute;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-image: url('../../img/GrinikRoman.png');
+	background-size: cover;
+}

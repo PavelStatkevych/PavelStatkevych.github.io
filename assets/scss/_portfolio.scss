@@ -1,0 +1,69 @@
+.small-header {
+	background-color: #2C2C2C;
+}
+.projects-wrapper {
+	background-color: #E7E7E7;
+	display: flex;
+	padding: 50px 0;
+}
+.portfolio-head {
+	display: block;
+	max-width: 1170px;
+	margin: 50px auto;
+	color:#57B3DE;
+	font-size: 4em;
+	font-family: 'Arial', sans-serif;
+}
+.project-list {
+	max-width: 1170px;
+	margin: 0 auto;
+	list-style: none;
+	padding: 0;
+}
+.project {
+	position: relative;
+	float: left;
+	width: 33.33%;
+	&:nth-child(1-3) {
+		clear:both;
+	}
+}
+.project-img-wrap {
+	overflow: hidden;
+	margin:0 20px 20px 0;
+	height: 370px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	&:last-child {
+		margin-right: 0;
+	}
+	&:before {
+		position: absolute;
+		content: '';
+		margin: 0 20px 20px 0;
+		top:0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background-color: rgba(43,89,110, 0.1);
+	}
+	&:hover .project-img{
+		transform: scale(1.2);
+	}
+}
+.project-img {
+	transition: all 0.3s ease;
+}
+.project-caption {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	top: 80%;
+	margin: 0 20px 20px 0;
+}
+.project-name {
+	color: #fff;
+	z-index: 2;
+}

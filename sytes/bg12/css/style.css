@@ -1,0 +1,422 @@
+	@font-face {
+		font-family: europeext;
+		src: local("europeext"),
+			 url("../font/europeext.otf");
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		text-decoration: none;
+		outline: none;
+		font-family: 'Arial', sans-serif;
+	}
+	body {
+		position: relative;
+	}
+	
+	/******************
+header
+	*******************/
+	.nav {
+		background-image: url("../images/backgrounds/head-background.jpg");
+		text-align: center;
+		border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+		box-shadow:0 2px 15px #000;
+	}
+	.nav__link {
+		display: inline-block;
+		margin: 27px 0;
+		padding: 7px 0.73206442166911%;
+		color: #fff;
+		/*font-size: 1.3vw;*/
+	}
+	.nav__link:hover {
+		margin: 23px 0;
+		border-top: 2px solid #fff;
+		border-bottom: 2px solid #fff;
+	} 
+	/******************
+Section slider
+	*******************/
+	.section-slider {
+		margin-top: 5px;
+		background-size: cover;
+		background-image: url("../images/backgrounds/background-sec1.jpg");
+	}
+	.logo-communication-wrapper
+	{
+		max-width: 960px;
+		margin: 0 auto;
+	}
+	.logo {
+		float: left;
+		width: 43%;
+		text-align: right;
+		margin-top: 1vw;
+	}
+	.logo__link {
+		display: block;
+		color: #11A048;
+		margin: 10px;
+		margin-top: 1vw;
+	}
+	.logo__link:hover {
+		color: #2A2287;
+	}
+	.communications {
+		margin-top: 1vw;
+		float: right;
+		max-width: 43%;
+	}
+	.language {
+		font-variant: small-caps;
+		position: relative;
+		float: left;
+	}
+	.language__link_span {
+		font-weight: bold;
+		color: #2C2783;
+	}
+	.language__link_span:hover {
+		color: #FF0003;
+	}
+	.language__link_span:active {
+		color: #01983B;
+	}
+	.language__drop {
+		position: absolute;
+		padding: 5px;
+		width: 35px;
+		left: 100%;
+		background-color: #fff;
+		top: -9999em;
+		opacity: 0;
+		border:1px solid #00973C;
+		border-radius: 10px;
+		transition: 0.5s opacity;
+	}
+	.language:hover .language__drop {
+		opacity: 1;
+		top:0;
+	}
+	.social-media {
+		float: right;
+	}
+	.social-media__text {
+		font-variant: small-caps;
+		color: #11A048;
+	}
+	.social-media__link_in, .social-media__link_vk {
+		vertical-align: middle;
+
+	}
+	.communications-info {
+		display: inline-block;
+		clear: both;
+		margin:11px 0;
+	}
+	.communications-info__link {
+		font-weight: bold;
+		color: #2C2783;
+		font-size: 15px;
+	}
+	.search-form__input {
+		width: 90%;
+		border: none;
+		border-bottom: 2px solid #2C2783;
+		background: none;
+		font-weight: bold;
+		color: #2A2286;
+	}
+	.search-form__button {
+		background: none;
+		border:none;
+		vertical-align: middle;
+	}
+	.slider	{
+		clear: both;
+		max-width: 980px;
+		margin: 0 auto;
+	}
+	.slider__slide-wrapper{
+		position: absolute;
+		bottom:40px; 
+		padding: 30px;
+		font-size: 2vw;
+		background-color: rgba(19, 159, 72, 0.6);
+	}
+	.slider__slide_description {
+		color: #fff;
+		font-family: europeext;
+	}
+	.tomorrow {
+		margin-left: 20%;
+	}
+	.energy {
+		font-weight: bold;
+		font-size: 1.6vw;
+		padding: 0 40px 0 0;
+	}
+	/******************
+Section sucsess
+	*******************/
+	.sucsess {
+		position: relative;
+		background-image: url("../images/backgrounds/background-sec22.jpg");
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		height: 35vw;
+		color: #fff;
+		text-align: center;
+	}
+	.sucsess__header {
+		display: inline-block;
+		font-size: 3vw;
+		padding: 3vw 0;
+	}
+	.company-territory, .on-market, .company-value {
+		position: absolute;
+	}
+	.company-territory {
+		text-align: right;
+		left: 10%;
+		top: 30%;
+	}
+	.company-territory__text {
+		font-size: 2vw;
+	}
+	.company-territory__area {
+		font-size: 4vw;
+		font-weight: bold;
+	}
+	.company-territory__square-meter {
+		font-size: 2.5vw;
+		font-weight: bold;
+		margin-right: -4vw;
+	}
+	.on-market {
+		right: 20%;
+		top: 17%;
+	}
+	.on-market__text {
+		font-size: 2vw;
+	}
+	.on-market__age {
+		font-size: 10vw;
+		font-weight: bold;
+	}
+	.on-market__age-text {
+		font-size: 4vw;
+		font-weight: bold;
+	}
+	.company-value {
+		right: 35%;
+		bottom: 15%;
+		text-align: right;
+	}
+	.company-value__text {
+		font-size: 2vw;
+	}
+	.company-value__area {
+		font-size: 6vw;
+		font-weight: bold;
+	}
+	.company-value__cubic-meters {
+		margin-right: -3vw;
+		font-size: 2.5vw;
+		font-weight: bold;
+	}
+	/******************
+Section sertificate
+	*******************/
+	.sertificate {
+		text-align: center;
+	}
+	.sertificate__logo {
+		margin-top: 3vw;
+	}
+	.sertificate__header {
+		font-size: 2vw;
+		color: #2C2783;
+		margin-bottom: 2vw;
+	}
+	.sertificates-wrapper__link {
+		margin: 0 1vw;
+	}
+	.sertificates-wrapper__link_img {
+		padding:4px;
+		border-radius: 5px;
+	}
+	.sertificates-wrapper__link_img:hover {
+		padding:0;
+		border:4px solid #01983B;
+	} 
+	.sertificate__text {
+		font-size: 2vw;
+		color: #2C2783;
+		margin: 2vw 0;
+	}
+	.contacts {
+		position: relative;
+		margin: 3vw auto -30px auto;
+		background-color: #0A9B42;
+		width: 80%;
+		z-index: 1;
+		border-radius: 0 0 10px 10px;
+		box-shadow: 0 2px 10px #000;
+		color: #fff;
+	}
+	.contacts__header {
+		padding: 1.5vw 0;
+	}
+	.contacts__text {
+		max-width: 500px;
+		margin: 0 auto;
+		padding-bottom: 1.5vw;
+	}
+	/******************
+footer
+	*******************/
+	.footer {
+		background-image: url("../images/backgrounds/background-footer.jpg");
+		background-size: cover;
+		margin-top: -5px;
+		text-align: center;
+		color: #fff;
+	}
+	.footer__logo {
+		padding: 20px 0;
+	}
+	.footer__copyright, .footer__social-text {
+		font-size: 14px;
+		margin: 5px 0;
+	}
+	.footer__social-link {
+		display: inline-block;
+		padding: 10px 0;
+	}
+	.footer__banner-system-text {
+		font-size: 14px;
+		color: #fff;
+	}
+	.footer__banner-system-text:hover {
+		font-size: 14px;
+		color: #2A2287;
+	}
+	.footer__website-development-text {
+		display: inline-block;
+		font-weight: bold;
+		padding: 20px 0;
+	}
+	/******************
+popup
+	*******************/
+	#popup {
+		position: absolute;
+		top: 5%;
+		left:-50%;
+		right: -50%;
+		text-align: center;
+		width: 500px;
+		margin: 0 auto;
+		background-color: #7F8085;
+		border-collapse: separate; 
+		border-radius: 30px;
+		top: -9999em;
+		transition: 0.5s all;
+	}
+	#popup.show {
+		top:10%;
+	}
+	.popup-wrapper {
+		position: relative;
+	}
+	.popup-wrapper__close {
+		position: absolute;
+		right: -10px;
+		top: -10px;
+		padding: 5px 10px;
+		border: 1px solid #0A9C42;
+		border-radius: 50%;
+		font-weight: bold;
+		background-color: #fff;
+	}
+	.enter__header, .regestration__header {
+		display: inline-block;
+		padding: 10px 0;
+		width: 100%;
+		color: #fff;
+		background-color: #0A9C42;
+		border-top: 2px solid #fff;
+		border-bottom: 2px solid #fff;
+
+	}
+	.enter {
+		height: 300px;
+		width: 50%;
+		float: left;
+		background-color: #D8D8D8;
+	}
+	.enter__form_user-lab, .enter__form_pass-lab, .regestration__form_user-lab, .regestration__form_pass-lab {
+		display: inline-block;
+		padding: 10px 0;
+	}
+	.enter__form_user-lab, .enter__form_pass-lab {
+		color: #2A2287; 
+	}
+	.enter__form_link {
+		display: inline-block;
+		font-size: 12px;
+		color: red;
+		padding-top: 5px;
+	}
+	.regestration__form_user-lab, .regestration__form_pass-lab {
+		color:#03943C;
+	}
+	.regestration {
+		height: 300px;
+		width: 50%;
+		float: right;
+		background-color: #EBEBEB;
+	}
+
+	.registration__form_input, .enter__form_input {
+		width: 80%;
+		height: 2vw;
+		border-radius: 10px;
+		border:2px solid #fff;
+		padding-left: 10px; 
+	}
+	.enter__form_button {
+		width: 80%;
+		height: 30px;
+		background-color: #2A2286;
+		border:none;
+		font-size: 16px;
+		font-weight: bold;
+		color: #fff;
+		margin: 10px;
+		cursor: pointer;
+		border-radius: 10px;
+		transition: 0.5s all;
+	}
+	.enter__form_button:hover {
+		background-color: #0A9C42;
+	}
+	.registration__form_button {
+		width: 80%;
+		height: 30px;
+		background-color: #0A9C42;
+		border:none;
+		font-size: 16px;
+		font-weight: bold;
+		color: #fff;
+		margin: 10px;
+		cursor: pointer;
+		border-radius: 10px;
+		transition: 0.5s all;
+	}
+	.registration__form_button:hover {
+		background-color: #2A2286;
+	}

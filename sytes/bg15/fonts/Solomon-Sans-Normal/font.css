@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Solomon-Sans-Normal';
+  src: url('Solomon-Sans-Normal.eot');
+  src: url('Solomon-Sans-Normal.woff2') format('woff2'),
+       url('Solomon-Sans-Normal.woff') format('woff'),
+       url('Solomon-Sans-Normal.ttf') format('truetype'),
+       url('Solomon-Sans-Normal.svg#Solomon-Sans-Normal') format('svg'),
+       url('Solomon-Sans-Normal.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

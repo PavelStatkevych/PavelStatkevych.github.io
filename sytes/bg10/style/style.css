@@ -1,0 +1,718 @@
+
+/************************
+MAIN
+************************/
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	color: #787E82;
+	list-style: none;
+}
+body
+{
+	background-color: #495E7B;
+	height: 100%;
+}
+.main
+{
+	position: relative;
+	max-width: 1300px;
+	margin:0 auto; 
+	min-width: 400px;
+
+}
+/************************
+HEADER
+************************/
+header 
+{
+	padding: 60px 14px 14px 0;
+	width: 100%;
+	
+}
+header .menu-wrapper
+{
+	background-color: #fff;
+	height: 61px;
+	margin: 0 auto;
+}
+header .menu-wrapper .nav-menu
+{
+	width: 50%;
+	margin-left: 15px;
+	float: left;
+}
+header .menu-wrapper .nav-menu ul
+{
+	height: 61px;
+}
+header .menu-wrapper .nav-menu ul li
+{
+	display: inline-block;
+	vertical-align: middle;
+	min-width: 1%;
+	overflow: hidden;
+	margin: 19px 1.3%;
+}
+
+header .menu-wrapper .nav-menu ul li a
+{
+	text-decoration: none;
+}
+
+header .menu-wrapper .nav-menu a span:hover
+{
+	color: #56CCC8;
+}
+header .menu-wrapper .menu-button img
+{
+ vertical-align: middle;
+ padding: 20px;
+}
+header .menu-wrapper .menu-button
+{
+	background-color: #56CCC8;
+	width: 61px;
+	height: 61px;
+	margin: 0;
+	float: left;
+}
+header .menu-wrapper .nav-menu ul li:nth-child(1) img
+{
+	margin: 20px;
+}
+header .menu-wrapper .nav-menu ul li:nth-child(2)
+{
+	margin: 0 1% 0 2%;
+}
+header .menu-wrapper .login-menu
+{
+	width: 50%;
+	margin-left: -161px;
+	float: right;
+	text-align: right;
+}
+header .menu-wrapper .login-menu ul li
+{
+	display: inline-block;
+	vertical-align: middle;
+	min-width: 1%;
+	overflow: hidden;
+	margin: 0 1.3%;
+}
+header .menu-wrapper .login-menu ul li 
+{
+	padding: 0;
+	margin: 0 3%;
+}
+header .menu-wrapper .login-menu li:nth-child(2)
+{
+	padding: 20px 3%;
+	border-left:1px solid #E0E5E7;
+	margin: 0;
+}
+header .menu-wrapper .login-menu li:nth-child(3)
+{
+	margin: 20px 0;
+}
+header .menu-wrapper .login-menu ul li:nth-child(5)
+{
+	padding: 20px;
+	border-left:1px solid #E0E5E7;
+	margin: 0;
+}
+header .menu-wrapper .login-menu ul li input
+{
+	border:none;
+	background-image: url('../icons/search-icon.png');
+	background-position: 90%;
+	background-repeat: no-repeat;
+	font-size: 16px;
+	height: 20px;
+	padding: 5px 0;
+	width: 100%;
+}
+
+/************************
+SECTION LEFT SIDE MENU
+************************/
+section .left-side
+{
+	width: 50%;
+	float: left;
+	max-height: 670px;
+}
+section .left-side-menu-wrapper
+{
+	position: relative;
+	float: left;
+	width: 50%;
+	max-height: 670px;
+}
+section .left-side-menu
+{
+	width: 100%;
+	height: 426px;
+}
+section .left-side-menu ul
+{
+	background-color: #fff;
+}
+section .left-side-menu ul li
+{
+	position: relative;
+	height: 60px;
+	border-bottom: 1px solid #E0E5E7;
+	cursor: pointer;
+}
+section .left-side-menu ul li a p
+{
+	margin: 3px 40px;
+}
+section .left-side-menu ul li:last-child
+{
+	border: none;
+}
+section .left-side-menu ul li:hover
+{
+	background-color: #56CCC8;
+}
+section .left-side-menu ul li:hover p
+{
+	color: #fff;
+}
+section .left-side-menu ul li:hover div
+{
+	background-position: bottom;
+}
+section .left-side-menu ul li div
+{
+	position: absolute;
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 25px;
+	margin:17px;
+}
+section .left-side-menu ul li:nth-child(4) div
+{
+	margin:22px 17px;
+}
+section .left-side-menu ul li:nth-child(4) div p
+{
+	margin: 0 40px;
+}
+section .left-side-menu ul li div.home-icon
+{
+	height: 22px;
+	background-image: url('../icons/home-icon.png');
+}
+section .left-side-menu ul li div.shop-icon
+{
+	height: 23px;
+	background-image: url('../icons/shop2-icon.png');
+}
+section .left-side-menu ul li div.blog-icon
+{
+	height: 23px;
+	background-image: url('../icons/blog2-icon.png');
+}
+section .left-side-menu ul li div.community-icon
+{
+	height: 16px;
+	background-image: url('../icons/community2-icon.png');
+}
+section .left-side-menu ul li div.contests-icon
+{
+	height: 22px;
+	background-image: url('../icons/contests2-icon.png');
+}
+section .left-side-menu ul li div.info-icon
+{
+	height: 24px;
+	background-image: url('../icons/info2-icon.png');
+}
+section .left-side-menu ul li div.email-icon
+{
+	height: 16px;
+	background-image: url('../icons/email2-icon.png');
+}
+section .left-side-menu ul li:nth-child(7) div
+{
+	margin:22px 17px;
+}
+section .left-side-menu ul li:nth-child(7) div p
+{
+	margin: -2px 0 0 40px;
+}
+section .left-side ul li a
+{
+	text-decoration: none;
+}
+section .left-side-contact-info
+{
+	background-color: #C5CDD1;
+	width: 100%;
+	height: 244px;
+	
+}
+section .left-side-contact-info .icon-wrapper
+{
+	clear: both;
+	float: left;
+}
+section .left-side-contact-info .info-wrapper
+{
+	padding-top: 27px;
+}
+section .left-side-contact-info .icon-wrapper img
+{
+	margin: 30px 17px 10px 17px;
+}
+section .left-side-contact-info-wrapper
+{
+	padding: 0 0 27px 0;
+}
+
+/************************
+LEFT SIDE LINK BLOCKS
+************************/
+
+section .left-side-link-blocks
+{
+	background-color: #152840;
+	float: right;
+	text-align: left;
+	width: 50%;
+	height: 670px;
+}
+section .left-side-link-blocks ul
+{
+	border-bottom: 1px solid #495E7B;
+}
+section .left-side-link-blocks ul li:nth-child(1) p
+{
+	color: #56CCC8;
+}
+section .left-side-link-blocks div:hover
+{
+	background-color: #263A54;
+}
+section .left-side-link-blocks ul li img
+{
+	position: absolute;
+	right: 0;
+	top:16px;
+}
+section .left-side-link-blocks ul li:nth-child(1)
+{
+	padding-top:16px;
+	margin-top: 0;
+}
+section .left-side-link-blocks ul li
+{
+	position: relative;
+	margin:16px 20px;
+}
+section .left-side-link-blocks ul li:hover p 
+{
+	color: #56CCC8;
+}
+section .left-side-link-blocks .lifestyle ul
+{
+	border: none;
+	height: 100%;
+	padding-bottom: 10px;
+}
+/************************
+RIGHT SIDE 
+************************/
+section .right-side
+{
+	width: 50%;
+	float: right;
+}
+section .right-side .social-media
+{
+	margin: 0 0 14px 14px;
+	background-color: #fff;
+	width: 48%;
+	padding: 16px 0;
+	float: left;
+}
+section .right-side .social-media ul li .image
+{
+	background-color: #C5CDD1;
+	text-align: center;
+	border-radius: 50%;
+	padding: 6px;
+	width: 23px;
+	height: 23px;
+	float: left;
+}
+section .right-side .social-media ul li p
+{
+	color: #545D61;
+}
+section .right-side .social-media ul li:hover .image
+{
+	background-color: #56CCC8;
+}
+section .right-side .social-media ul li:hover p
+{
+	color: #56CCC8;
+}
+section .right-side .social-media ul li
+{
+	padding: 10px 15%;
+	clear: both;
+	cursor: pointer;
+}
+section .right-side .social-media ul li p
+{
+	margin: 7px 0 0 50px;
+	height: 30px;
+}
+section .right-side .social-media ul li .image img
+{
+	vertical-align: middle;
+}
+/************************
+FOLLOWING FB, TWITTER 
+************************/
+section .following-blocks
+{
+	float: right;
+	width: 48%;
+} 
+section .follow-block
+{
+	width: 100%;
+	height: 151px;
+}
+section .facebook-follow
+{
+	background-color: #4D6BAA;
+}
+section .facebook-follow .facebook-img
+{
+	margin: 20px 26px;
+}
+section .facebook-follow ul
+{
+	margin: 20px;
+}
+section .facebook-follow ul li
+{
+	display: inline-block;
+	vertical-align: middle;
+	width: 40%;
+}
+section .facebook-follow ul li p
+{
+	color: #fff;
+}
+section .facebook-follow ul li:nth-child(1)
+{
+	text-align: left;
+}
+section .facebook-follow ul li:nth-child(2)
+{
+	text-align: right;
+}
+section .facebook-follow ul li:nth-child(3)
+{
+	width: 10%;
+	text-align: right;
+}
+section .facebook-follow ul li:nth-child(1) p
+{
+	font-weight: bold;
+}
+section .facebook-follow ul li:nth-child(3)
+{
+	margin: 3px 0 0 5px; 
+}
+section .twitter-follow
+{
+	background-color: #4FC6F8;
+	margin:14px 0;
+}
+section .twitter-follow .twitter-img
+{
+	margin: 20px;
+}
+section .twitter-follow ul
+{
+	margin: 20px;
+}
+section .twitter-follow ul li
+{
+	display: inline-block;
+	vertical-align: middle;
+	width: 40%;
+}
+section .twitter-follow ul li p
+{
+	color: #fff;
+}
+section .twitter-follow ul li:nth-child(1)
+{
+	text-align: left;
+	font-weight: bold;
+}
+section .twitter-follow ul li:nth-child(2)
+{
+	text-align: right;
+}
+section .twitter-follow ul li:nth-child(3)
+{
+	width: 10%;
+	text-align: right;
+	
+}
+
+/************************
+UNDER FOLLOWING FB, TWITTER 
+************************/
+
+section .sign-block
+{
+	clear: both;
+	background-color: #fff;
+	margin: 14px 0 14px 14px;
+	height: 162px;
+	width: 98%;
+	text-align: center;
+}
+section .sign-block h2
+{
+	padding:30px 0 5px 0;
+	color: #545D61;
+}
+section .sign-block p
+{
+	padding:0 0 20px 0;
+}
+section .sign-in-block ul li
+{
+	display: inline-block;
+	margin:0 10px;
+}
+section .sign-in-block ul li .icon-wrap
+{
+	text-align: center;
+	border-radius: 50%;
+	padding: 6px;
+	width: 23px;
+	height: 23px;
+	float: left;
+}
+section .sign-in-block ul li .icon-wrap img
+{
+	vertical-align: middle;
+}
+section .sign-in-block ul li:nth-child(1) .icon-wrap
+{
+	background-color: #4D6BAA;
+}
+section .sign-in-block ul li:nth-child(2) .icon-wrap
+{
+	background-color: #4FC6F8;
+}
+section .sign-in-block ul li:nth-child(3) .icon-wrap
+{
+	background-color: #EA6060;
+}
+section .sign-in-block ul li:nth-child(4) .icon-wrap
+{
+	background-color: #238CC8;
+}
+section .join-block p
+{
+	font-size: 12px;
+	color: #545D61;
+	font-weight: bold;
+}
+section .join-block .joing-email
+{
+	width: 60%;
+	height: 40px;
+	border: 1px solid #DDE2E4;
+	font-size: 16px;
+	padding-left: 16px; 
+}
+section .join-block .sing-up
+{
+	border-radius: 5px;
+	border: none;
+	background-color: #EA6060;
+	margin-left: 10px;
+	color: #fff;
+	font-size: 16px;
+	height: 44px;
+	width: 20%;
+	cursor: pointer;
+}
+section .join-block .sing-up:hover
+{
+	background-color: #4FC6F8;
+}
+section .join-block .sing-up:active
+{
+	background-color: #238CC8;
+}
+/************************
+SLIDER
+************************/
+ol
+{
+	position: absolute;
+	list-style: none;
+	text-align: center;
+	padding: 0;
+	left: 0;
+	right: 0;
+	bottom: 110px;
+}
+ol li
+{
+	border: 1px solid #fff;
+	border-radius: 50%;
+	display: inline-block;
+	margin: 0 2px;
+	width:8px;
+	height:8px;
+}
+ol li div
+{
+	background: #fff;
+	border-radius: 50%;
+	width:8px;
+	height:8px;
+}
+.wrapper #img 
+{
+	width:100%;
+	margin-top: 40px;
+	padding-bottom: 80px;
+	height: auto;
+}
+.wrapper 
+{
+	position: relative;
+	width: 100%;
+	clear: both;
+}
+.wrapper #back
+{
+	background-color: #fff;
+	border-radius:  0 5px 5px 0;
+	border: none;
+	position: absolute;
+	left: : 0;
+	bottom: 50%;
+	padding: 15px 10px;
+	cursor: pointer;
+}
+.wrapper #forward
+{
+	background-color: #fff;
+	border-radius: 5px 0 0 5px;
+	border: none;
+	position: absolute;
+	right: 0;
+	bottom: 50%;
+	padding: 15px 10px;
+	cursor: pointer;
+}
+/************************
+POP UP 
+************************/
+.pop-up
+{
+	position: absolute;
+	top: -500px;
+	left: 50%;
+}
+.form-wrapper
+{
+	display: none;
+	padding: 30px;
+	position: relative;
+	left: -50%;
+	top: 100px;
+	right: 0;
+	z-index: 5;
+	width: 250px;
+	background-color: #fff;
+	transition: top 0.2s ease-in-out;
+}
+.form-wrapper .your-name, .email-form 
+{
+	width: 95%;
+	height: 30px;
+	font-size: 18px;
+	padding-left: 5%;
+	margin: 20px 0 0 0;
+}
+textarea
+{
+	margin: 20px 0 0 0;
+	width: 96%;
+	font-size: 18px;
+	padding: 3% 0 0 5%;
+}
+section .form-wrapper .submit
+{
+	border-radius: 5px;
+	margin: 15px 0 0 0;
+	border: none;
+	background-color: #EA6060;
+	color: #fff;
+	font-size: 16px;
+	height: 40px;
+	width: 40%;
+	cursor: pointer;
+}
+section .form-wrapper .submit:hover
+{
+	background-color: #4FC6F8;
+}
+section .form-wrapper .submit:active
+{
+	background-color: #238CC8;
+}
+.back
+{
+	display: none;
+	background-color: #000;
+	background-size: cover;
+	opacity: 0.7;
+	position: absolute;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 4;
+}
+#close
+{
+	position: absolute;
+	top: 2%;
+	right: 3%;
+	cursor: pointer;
+}
+.show-pop-up
+{
+	top: 50px;
+	transition: 1s;
+}
+.disable-scrolling
+{
+	overflow: hidden;
+}
+.show
+{
+	display: block;
+}

@@ -1,0 +1,89 @@
+@media screen and (max-width: 900px) 
+{
+	header 
+	{
+		padding: 60px 14px 14px 14px;
+	}
+	section .left-side
+	{
+		float: none;
+		width: 100%;
+		margin: 0 auto;
+		padding: 14px; 
+	}
+	section .right-side
+	{
+		padding: 14px; 
+		float: none;
+		width: 100%;
+		clear: both;
+	}
+	section .right-side .social-media
+	{
+		margin: 0;
+		width: 49%;
+	}
+	section .following-blocks
+	{
+		width: 49%;
+	}
+	section .sign-block
+	{
+		margin: 14px 0;
+		width: 100%;
+	}
+	.wrapper 
+	{
+		margin-left: 14px;
+	}
+	ol
+	{
+		bottom: 100px;
+	}
+}
+@media screen and (max-width: 700px)
+{
+	header .menu-wrapper .menu-button
+	{
+		position: relative;
+		height: 122px;
+		z-index: 2;
+	}
+	header .menu-wrapper .nav-menu
+	{
+		width: 80%;
+	}
+	header .menu-wrapper .login-menu
+	{
+		width: 100%;
+		background-color: #fff;
+	}
+	section
+	{
+		clear: both;
+	}
+
+}
+@media screen and (max-width: 450px)
+{
+	header .menu-wrapper .login-menu ul li input
+	{
+		width: 80%;
+	}
+	section .left-side-contact-info-wrapper p
+	{
+		font-size: 14px;
+	}
+	section .sign-in-block p
+	{
+		font-size: 14px;
+	}
+	section .facebook-follow ul li p
+	{
+		font-size: 14px;
+	}
+	section .twitter-follow ul li p
+	{
+		font-size: 14px;
+	}
+}

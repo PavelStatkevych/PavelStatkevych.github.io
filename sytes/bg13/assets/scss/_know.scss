@@ -1,0 +1,65 @@
+.good-know {
+	position: relative;
+	background-image: url('../../img/s-three-bg.jpg');
+	padding-bottom: 46px;
+	z-index: 1;
+	min-width: 1166px;
+}
+.cards-wrap {
+	display: flex;
+	min-width: 1166px;
+	max-width: 1166px;
+	margin: 0 auto 20px auto;
+}
+.card-cont {
+	width: 33.3333%;
+	margin-right: 20px;
+}
+.card-cont:last-child {
+	margin-right: 0;
+}
+.card-img {
+	display: block;
+	height: 270px;
+	background-size: cover;
+}
+.card-cont__text {
+	background-color: #fff;
+	padding: 20px;
+}
+.card-cont__text--head {
+	font-family: 'conthraxsb', 'Arial', sans-serif;
+	color: #2e368f;
+	font-size: 26px;
+	line-height: 24px;
+	margin: 0;
+}
+.card-cont__text--discr {
+	color: #323232;
+}
+.know-btn {
+	display: inline-block;
+	margin: 0;
+	color: #6DC72D;
+	border: 1px solid #6DC72D;
+	padding: 10px 20px;
+	z-index: 999;
+}
+.card-img-1 {
+	background-image: url('../../img/serv1.jpg');
+}
+.card-img-2 {
+	background-image: url('../../img/serv2.jpg');
+}
+.card-img-3 {
+	background-image: url('../../img/serv3.jpg');
+}
+.card-img-4 {
+	background-image: url('../../img/serv4.jpg');
+}
+.card-img-5 {
+	background-image: url('../../img/serv5.jpg');
+}
+.card-img-6 {
+	background-image: url('../../img/serv6.jpg');
+}

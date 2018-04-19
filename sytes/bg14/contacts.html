@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>KA-Tex</title>
+	<link rel="icon" href="img/favicon.png" sizes="32x32" type="image/png">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="dist/css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="slick/slick.css">
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+	<link rel="stylesheet" type="text/css" href="dist/css/style.css">
+</head>
+<body>
+	<div class="video-background">
+		<video class="header-video" poster="img/bg-head.jpg" autoplay="true" loop="true" src="video/k1.mov" frameborder="0" allowfullscreen></video>
+		<header class="header">
+			<div class="header-wrap">
+				<ul class="contacts-list">
+					<li class="contacts-link tel-icon"><a href="tel:+380674303332">+38(067)430-33-32</a></li>
+					<!-- <li class="contacts-link"><a href="tel:+380677953000">+38(067)795-30-00</a></li> -->
+					<li class="contacts-link"><a href="tel:++48883886906">+48 883 886 906 (Poland)</a></li>
+					<li class="contacts-link mail-icon"><a href="mailto:ka.tech@i.ua">ka.tech@i.ua</a></li>
+					<a href="#" id="" class="contacts-link call-back question">ПЕРЕДЗВОНІТЬ МЕНІ</a>
+				</ul>
+				<nav class="header-nav">
+					<a href="index.html" class="nav-link">Головна</a>
+					<a href="product.html" id="product" class="nav-link">Продукція</a>
+					<a href="about.html" id="about" class="nav-link">Про компанію</a>
+					<a href="contacts.html" id="contact" class="nav-link active-link">Контакти</a>
+					<a href="#" class="nav-link sing-in__enter">Увійти</a>
+					<a href="#" class="nav-link sing-in__registr">Реєстрація</a>
+				</nav>
+				<div class="center-logo-wrap">
+					<a href="index.html"><img src="img/logo.png" alt="KA-Tex" class="center-logo"></a>
+				</div>
+			</div>
+		</header>
+		<div class="arrow"></div>
+	</div>
+	<div class="pop-up">
+		<div class="pop-up-cont">
+			<button class="close-pop-up">х</button>
+			<form action="https://formspree.io/ka.tech@i.ua" class="popup-form" method="POST">
+				<h4 class="pop-up-head">Відправте нам<br> свій номер</h4>
+				<span class="pop-up-text">Наш менеджер передзвонить<br> вам найближчим часом!</span>
+				<label  class="input-tell--label" for="input-tell">Введіть номер:</label>
+				<input name="name" class="input-tell" type="tel" required="">
+				<label  class="input-tell--label" for="input-tell">Введіть електронну пошту:</label>
+				<input name="_replyto"  class="input-tell" type="email" required="">
+				<button id="send-popup-info" type="submit" value="send" class="send-popup">Відправити</button>
+			</form>
+		</div>
+	</div>
+	<a href="#" id="return-to-top"><i class="icon-chevron-up"></i></a>
+	<section class="contacts-on-page">
+		<div class="section-header">
+			<h4 class="section-header__head">Наші телефони</h4>
+		</div>
+		<div class="map map-page">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2189.973908276724!2d28.479049372431376!3d49.2511423957157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472d5b584c198da3%3A0x5ffaf5545cc3052!2z0L_RgNC-0LLRg9C70L7QuiDQk9GA0LjQsdC-0ZTQtNC-0LLQsCwgMTcsINCS0ZbQvdC90LjRhtGPLCDQktGW0L3QvdC40YbRjNC60LAg0L7QsdC70LDRgdGC0YwsIDIxMDAw!5e0!3m2!1suk!2sua!4v1517568557856" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+			<div class="to-call-on-page">
+				<div class="phone-wrap">
+					<a href="tel:+380674303332" class="contact-nav__link tel-icon">+38(067)430-33-32</a>
+					<!-- <a href="tel:+380960050405" class="contact-nav__link">+38(067)795-30-00</a> -->
+					<a href="tel:+48883886906" class="contact-nav__link">+48 883 886 906 (Poland)</a>
+				</div>
+				<div class="email-wrap">
+					<a href="mailto:ka.tech@i.ua" class="contact-nav__link mail-icon">ka.tech@i.ua</a>
+					<span class="address">21000 Вінниця, Україна пров. Гребоєдова, 17</span>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="take-info">
+		<div class="take-info-wrap">
+			<div class="take-info__left">
+				<span class="take-info__head">ОТРИМАЙТЕ</span>
+				<span class="take-info__head--part">БЕЗКОШТОВНУ</span>
+				<span class="take-info__head">КОНСУЛЬТАЦІЮ!</span>
+				<form action="https://formspree.io/ka.tech@i.ua" method="POST" class="take-info__form">
+					<input name="name" type="text" class="input name" placeholder="Ім'я" required="">
+					<input name="name" type="tel" class="input phone" placeholder="Телефон" required="">
+					<button class="submit" type="submit">ОТРИМАТИ КОНСУЛЬТАЦІЮ</button>
+				</form>
+				<span class="form-text">Наш мнеджер передзвонить вам на протязі 15-ти хвилин!</span>
+			</div>
+			<div class="take-info__right">
+				<img src="img/man2.png" alt="">
+			</div>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="footer-wrap">
+			<div class="footer-logo"></div>
+			<ul class="footer-nav">
+				<li class="footer-nav__link"><a href="#" class="nav-link">Головна</a></li>
+				<li class="footer-nav__link"><a href="#" class="nav-link">Продукція</a></li>
+				<li class="footer-nav__link"><a href="#" class="nav-link">Про компанію</a></li>
+			</ul>
+			<ul class="footer-nav">
+				<li class="footer-nav__link"><a href="#" class="nav-link">Оплата/Доставка</a></li>
+				<li class="footer-nav__link"><a href="#" class="nav-link">Контакти</a></li>
+			</ul>
+			<ul class="footer-nav footer-nav--phone tel-icon">
+				<li class="footer-nav__link"><a href="tel:+380674303332">+38(067)430-33-32</a></li>
+				<!-- <li class="footer-nav__link"><a href="tel:+380677953000">+38(067)795-30-00</a></li> -->
+				<li class="footer-nav__link"><a href="tel:+48883886906">+48 883 886 906 (Poland)</a></li>
+			</ul>
+			<ul class="footer-nav mail-icon">
+				<li class="footer-nav__link "><a href="mailto:ka.tech@i.ua">ka.tech@i.ua</a></li>
+				<li class="call-back__btn"><a href="#" class="call-back__ft question">ПЕРЕДЗВОНІТЬ МЕНІ</a></li>
+			</ul>
+		</div>
+		<div class="copy">КА-ТЕХ - 2018</div>
+	</footer>
+	<div class="in-process">
+		<div class="in-process__wrap">
+			<button class="close-in-process">х</button>
+			<h3 class="in-process-head">На данний час сайт ще знаходиться на стадії розробки</h3>
+			<p class="in-process--text">Будьласка залиште контактну інформацію і <br> ми зв'яжемося з вами найближчим часом</p>
+			<p class="in-process--text">Дякуємо за розуміння!</p>
+			<form action="https://formspree.io/ka.tech@i.ua" method="POST">
+				<input name="_replyto" type="email" class="in-email in-process__input" placeholder="Введіть електронну адресу" required="">
+				<input name="name" type="tel" class="in-phone in-process__input" placeholder="Залиште номер телефону" required="">
+				<button type="submit" value="Send" class="send-email">Відправити</button>
+			</form>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="slick/slick.min.js"></script>
+	<script type="text/javascript" src="js/js.js"></script>
+</body>
+</html>

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Smart.system</title>
+	<link rel="stylesheet" type="text/css" href=".//style/style.css">
+	<link rel="stylesheet" type="text/css" href=".//style/responsive.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<script type="text/javascript" src=".//js/jquery.js"></script>
+	<script type="text/javascript" src=".//js/jquery.validate.min.js"></script>
+	<script type="text/javascript" src=".//js/validator.js"></script>
+	<script type="text/javascript" src=".//js/script.js"></script>
+	<script type="text/javascript" src=".//js/preload.js"></script>
+</head>
+<body>
+	<div class="main">
+		<header>
+			<div class="menu-wrapper">
+				<div class="menu-button"><a href="#"><img src=".//icons/menu-icon.png" alt=""></a></div>
+				<nav class="nav-menu">
+					<ul>
+						<li><a href="#"><span>Home</span></a></li>
+						<li><a href="#"><span>Store</span></a></li>
+						<li><a href="#"><span>Blog</span></a></li>
+						<li><a href="#"><span>About</span></a></li>
+						<li><a href="#"><span>Contact</span></a></li>
+					</ul>
+				</nav>
+				<div class="login-menu">
+					<ul>
+						<li><input type="text" class="search"></li>
+						<li><a href="#"><img src=".//icons/facebook-icon.png" alt=""></a></li>
+						<li><a href="#"><img src=".//icons/twitter-icon.png" alt=""></a></li>
+						<li><a href="#"><img src=".//icons/google-icon.png" alt=""></a></li>
+						<li><a onclick="popUpFunction();" href="#"><img src=".//icons/login-icon.png" alt=""></a></li>
+					</ul>
+				</div>
+			</div>
+		</header>
+		<section>
+			<div class="left-side">
+				<div class="left-side-menu-wrapper">
+					<div class="left-side-menu">
+						<ul>
+							<li><a href="#"><div class="home-icon"><p>Home</p></div></a></li>
+							<li><a href="#"><div class="shop-icon"><p>Store</p></div></a></li>
+							<li><a href="#"><div class="blog-icon"><p>Blog</p></div></a></li>
+							<li><a href="#"><div class="community-icon"><p>Community</p></div></a></li>
+							<li><a href="#"><div class="contests-icon"><p>Contests</p></div></a></li>
+							<li><a href="#"><div class="info-icon"><p>About</p></div></a></li>
+							<li><a href="#"><div class="email-icon"><p>Contact</p></div></a></li>
+						</ul>
+					</div>
+					<div class="left-side-contact-info">
+						<div class="left-side-contact-info-wrapper">
+							<ul>
+								<li>
+									<div class="icon-wrapper">
+										<img src=".//icons/phone-icon.png" alt="">
+									</div>
+									<div class="info-wrapper">
+										<p>(912) 555-1234</p>
+										<p>(912) 555-5678</p>
+									</div>
+								</li>
+								<li>
+									<div class="icon-wrapper">
+										<img src=".//icons/pointer-icon.png" alt="">
+									</div>
+									<div class="info-wrapper">
+										<p>1600 Pennsylvania <br> Ave NW, Washington<br> DC 20500, USA</p>
+									</div>
+								</li>
+								<li>
+									<div class="icon-wrapper">
+										<img src=".//icons/email-white-icon.png" alt="">
+									</div>
+									<div class="info-wrapper">
+										<p>hello@website.com</p>
+										<p>office@website.com</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="left-side-link-blocks">
+					<div class="tech">
+						<ul>
+							<li><a href="#"><p>Tech</p><img src=".//icons/arrow-icon.png" alt=""></a></li>
+							<li><a href="#"><p>Software & Apps</p></a></li>
+							<li><a href="#"><p>Gadgets</p></a></li>
+							<li><a href="#"><p>Mobile</p></a></li>
+						</ul>
+					</div>
+					<div class="entertaiment">
+						<ul>
+							<li><a href="#"><p>Entertaiment</p><img src=".//icons/arrow-icon.png" alt=""></a></li>
+							<li><a href="#"><p>Film</p></a></li>
+							<li><a href="#"><p>Gaming</p></a></li>
+							<li><a href="#"><p>Music</p></a></li>
+							<li><a href="#"><p>Sport</p></a></li>
+						</ul>
+					</div>
+					<div class="business">
+						<ul>
+							<li><a href="#"><p>Business</p><img src=".//icons/arrow-icon.png" alt=""></a></li>
+							<li><a href="#"><p>Jobs</p></a></li>
+							<li><a href="#"><p>Marketing</p></a></li>
+							<li><a href="#"><p>Media</p></a></li>
+						</ul>
+					</div>
+					<div class="lifestyle">
+						<ul>
+							<li><a href="#"><p>Lifestyle</p><img src=".//icons/arrow-icon.png" alt=""></a></li>
+							<li><a href="#"><p>Home</p></a></li>
+							<li><a href="#"><p>Health & Fitness</p></a></li>
+							<li><a href="#"><p>Travel & Leisure</p></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="right-side">
+				<div class="social-media">
+					<ul>
+						<li>
+							<div class="image">
+								<img src=".//icons/facebook-white-icon.png" alt="icon">
+							</div>
+							<p>Facebook</p>
+						</li>
+						<li>
+							<div class="image">
+								<img src=".//icons/twitter-white-icon.png" alt="icon">
+							</div>
+							<p>Twitter</p>
+						</li>
+						<li>
+							<div class="image">
+								<img src=".//icons/google-white-icon.png" alt="icon">
+							</div>
+							<p>Google +</p>
+						</li>
+						<li>
+							<div class="image">
+								<img src=".//icons/rss-white-icon.png" alt="icon">
+							</div>
+							<p>Rss Feeds</p>
+						</li>
+						<li>
+							<div class="image">
+								<img src=".//icons/pinterest-white-icon.png" alt="icon">
+							</div>
+							<p>Pinterest</p>
+						</li>
+					</ul>
+				</div>
+				<div class="following-blocks">
+					<div class="facebook-follow follow-block">
+						<img class="facebook-img" src=".//icons/facebook-follow-icon.png" alt="icon">
+						<ul>
+							<li><p>156K</p></li>
+							<li><p>Follow</p></li>
+							<li><img src=".//icons/follow-icon.png" alt="icon"></li>
+						</ul>
+					</div>
+					<div class="twitter-follow follow-block">
+						<img class="twitter-img" src=".//icons/twitter-follow-icon.png" alt="icon">
+						<ul>
+							<li><p>89K</p></li>
+							<li><p>Following</p></li>
+							<li><img src=".//icons/following-icon.png" alt="icon"></li>
+						</ul>
+					</div>
+				</div>
+				<div class="sign-in-block sign-block">
+					<h2>Sign In</h2>
+					<p>Just select your favorite social network to get started</p>
+					<ul>
+						<li><a href="#"><div class="icon-wrap"><img src=".//icons/facebook-white-icon.png" alt="icon"></div></a></li>
+						<li><a href="#"><div class="icon-wrap"><img src=".//icons/twitter-white-icon.png" alt="icon"></div></a></li>
+						<li><a href="#"><div class="icon-wrap"><img src=".//icons/google-white-icon.png" alt="icon"></div></a></li>
+						<li><a href="#"><div class="icon-wrap"><img src=".//icons/linked-In-icon.png" alt="icon"></div></a></li>
+					</ul>
+				</div>
+				<div class="join-block sign-block">
+					<h2>Join the Newsletter</h2>
+					<p>Sign up for our personalized daily newsletter</p>
+					<input class="joing-email" type="email" placeholder="Enter email address">
+					<input class="sing-up" type="submit" value="SIGN UP">
+				</div>
+			</div>
+			<div class="wrapper">
+				<img id="img" src=".//gallery/1.jpg"></img>
+				<button id="back"><img src=".//icons/arrow-left-icon.png"></button>
+				<button id="forward"><img src=".//icons/arrow-right-icon.png"></button>
+				<ol>
+					<li><div id="dot1" class="not-selected"></div></li>
+					<li><div id="dot2" class="not-selected"></div></li>
+					<li><div id="dot3" class="not-selected"></div></li>
+					<li><div id="dot4" class="not-selected"></div></li>
+				</ol>
+			</div>
+			<div id="pop" class="pop-up">
+				<div id="form" class="form-wrapper">
+					<h2>Ask a Question</h2>
+					<a id="close">x</a>
+					<form id="myValidForm" method="get" action="">
+						<input name="name_of_person" class="your-name" type="text" placeholder="Your name">
+						<input name="email_of_person" type="email" class="email-form" placeholder="Your email">
+						<textarea name="question_of_person" name="messege" id="messege" cols="32" rows="5" placeholder="Your qustion..." required></textarea>
+						<input class="submit" type="submit" value="SUBMIT">
+					</form>
+				</div>
+			</div>
+		</section>
+	</div>
+	<div id="background" class="back"></div>
+</body>
+</html>
