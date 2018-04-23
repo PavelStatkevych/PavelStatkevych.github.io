@@ -32,7 +32,7 @@
 .project-img-wrap {
   overflow: hidden;
   margin: 0 20px 20px 0;
-  height: 370px;
+  height: 350px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -52,28 +52,36 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgba(43, 89, 110, 0.1); }
+    background-color: rgba(43, 89, 110, 0.7); }
   .project-img-wrap:hover .project-img {
     -webkit-transform: scale(1.2);
         -ms-transform: scale(1.2);
             transform: scale(1.2); }
 
+.project-link:hover .project-caption {
+  display: none; }
+
 .project-img {
-  -webkit-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease; }
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease; }
 
 .project-caption {
+  text-align: center;
+  font-size: 24px;
   position: absolute;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  top: 80%;
-  margin: 0 20px 20px 0; }
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
 
 .project-name {
+  display: block;
   color: #fff;
-  z-index: 2; }
+  z-index: 2;
+  padding-bottom: 6px;
+  border-bottom: 3px solid #fff; }
 
 /******************* HEADER BLOCK *************************/
 .header {
@@ -328,6 +336,7 @@
 
 .service-link {
   text-decoration: none;
+  width: 50%;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease; }
@@ -504,7 +513,7 @@
 
 .about-people-title {
   margin: 0;
-  font-size: 55px;
+  font-size: 50px;
   font-weight: 100;
   margin-bottom: 0; }
   .about-people-title span {

@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ru">
+
+    <head>
+
+        <meta charset="utf-8">
+
+        <title>Заголовок</title>
+        <meta name="description" content="">
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+        <meta property="og:image" content="path/to/image.jpg">
+
+        <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+        <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+
+
+
+        <!-- Header CSS (First Sections of Website: paste after release from header.min.css here) -->
+        <style></style>
+
+        <!-- Load CSS, CSS Localstorage & WebFonts Main Function -->
+        <script>
+            ! function(e) {
+                "use strict";
+
+                function t(e, t, n) {
+                    e.addEventListener ? e.addEventListener(t, n, !1) : e.attachEvent && e.attachEvent("on" + t, n)
+                }
+
+                function n(t, n) {
+                    return e.localStorage && localStorage[t + "_content"] && localStorage[t + "_file"] === n
+                }
+
+                function a(t, a) {
+                    if (e.localStorage && e.XMLHttpRequest) n(t, a) ? o(localStorage[t + "_content"]) : l(t, a);
+                    else {
+                        var s = r.createElement("link");
+                        s.href = a, s.id = t, s.rel = "stylesheet", s.type = "text/css", r.getElementsByTagName("head")[0].appendChild(s), r.cookie = t
+                    }
+                }
+
+                function l(e, t) {
+                    var n = new XMLHttpRequest;
+                    n.open("GET", t, !0), n.onreadystatechange = function() {
+                        4 === n.readyState && 200 === n.status && (o(n.responseText), localStorage[e + "_content"] = n.responseText, localStorage[e + "_file"] = t)
+                    }, n.send()
+                }
+
+                function o(e) {
+                    var t = r.createElement("style");
+                    t.setAttribute("type", "text/css"), r.getElementsByTagName("head")[0].appendChild(t), t.styleSheet ? t.styleSheet.cssText = e : t.innerHTML = e
+                }
+                var r = e.document;
+                e.loadCSS = function(e, t, n) {
+                    var a, l = r.createElement("link");
+                    if (t) a = t;
+                    else {
+                        var o;
+                        o = r.querySelectorAll ? r.querySelectorAll("style,link[rel=stylesheet],script") : (r.body || r.getElementsByTagName("head")[0]).childNodes, a = o[o.length - 1]
+                    }
+                    var s = r.styleSheets;
+                    l.rel = "stylesheet", l.href = e, l.media = "only x", a.parentNode.insertBefore(l, t ? a : a.nextSibling);
+                    var c = function(e) {
+                        for (var t = l.href, n = s.length; n--;)
+                            if (s[n].href === t) return e();
+                        setTimeout(function() {
+                            c(e)
+                        })
+                    };
+                    return l.onloadcssdefined = c, c(function() {
+                        l.media = n || "all"
+                    }), l
+                }, e.loadLocalStorageCSS = function(l, o) {
+                    n(l, o) || r.cookie.indexOf(l) > -1 ? a(l, o) : t(e, "load", function() {
+                        a(l, o)
+                    })
+                }
+            }(this);
+
+        </script>
+
+        <!-- Load CSS Start -->
+        <script>
+            loadLocalStorageCSS("webfonts", "css/fonts.min.css?ver=1.0.0");
+
+        </script>
+        <script>
+            loadCSS("css/header.min.css?ver=1.0.0", false, "all");
+
+        </script>
+        <script>
+            loadCSS("css/main.min.css?ver=1.0.0", false, "all");
+
+        </script>
+        <!-- Load CSS End -->
+
+        <link rel="stylesheet" href="libs/bootstrap-3.3.6/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="libs/bootstrap-3.3.6/dist/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="libs/slick-carousel/slick/slick-theme.css">
+        <link rel="stylesheet" href="libs/slick-carousel/slick/slick.css">
+        <link rel="stylesheet" href="libs/ion.rangeSlider/css/ion.rangeSlider.css">
+        <!-- Load CSS Compiled without JS -->
+        <noscript>
+            <link rel="stylesheet" href="css/fonts.min.css">
+
+        </noscript>
+        <link rel="stylesheet" href="css/main.min.css">
+        <link rel="stylesheet" href="css/form.css">
+
+    </head>
+
+    <body>
+
+        <header  class="spot-bg">
+            <div class="header--top">
+                <nav class="navbar navbar-default">
+                    <!-- Контейнер -->
+                    <div class="container">
+                        <!-- Заголовок -->
+                        <div class="row">
+                            <div class="navbar-header">
+                                <!-- Кнопка «Гамбургер» -->
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-main" aria-expanded="false">
+                                    <span class=sr-only>Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <!-- Бренд или название сайта -->
+                                <a class="navbar-brand logo" href="#"><img src="img/svg/header--logo.svg" alt=""></a>
+                            </div>
+                            <!-- Основная часть меню -->
+                            <div class="collapse navbar-collapse" id="navbar-main">
+
+                                <!-- Содержимое основной части -->
+                                <ul class="nav navbar-nav navbar-right maimenu">
+                                    <li><a href="#">О сервисе</a></li>
+                                    <li><a href="#">Получение денег</a></li>
+                                    <li><a href="#">Статьи</a></li>
+
+
+                                    <!-- Выпадающий список -->
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">FAQ <span class="caret"></span></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">Ссылка</a></li>
+                                            <li><a href="#">Ссылка</a></li>
+                                            <li role="separator" class="divider"></li>
+                                            <li><a href="#">Ссылка</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><button class="button blue--bg header--btn"><a href="#">Обратная связь</a></button></li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+        </header>
+        <main  class="spot-bg">
+            <div class="container">
+                <div class="top--content">
+                    <h4 class="blue--text">Заполните свои личные данные: </h4>
+                    <p>Ваши персональные данные надежно защищены</p>
+                </div>
+            </div>
+
+            <div class="container tab-form">
+                <div class="row">
+                    <div class="col-md-12 col-md-offset-0 col-xs-10 col-xs-offset-1">
+                        <div class="row">
+                            <div class="col-sm-10 col-sm-offset-1">
+                                <div class="ex-indicator-scope nav nav-tabs" role="tablist">
+                                    <figure class="ex-first-step">
+
+                                    </figure>
+                                    <figure class="ex-second-step">
+                                        <div>
+                                            <span></span>
+                                        </div>
+
+                                    </figure>
+                                    <figure class="ex-last-step">
+
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row tab-content">
+                            <form class="form-horizontal form-label form-css-label" id="anketa" action="/lk" method="post" onsubmit="return validate();" autocomplete="off" novalidate>
+
+                                <div class="row tab-content">
+                                    <div role="tabpanel" class="tab-pane fade in active col-xs-12" id="firstTabContent">
+                                        <div class="calc--tab">
+                                            <div class="row">
+                                                <div class="col-md-3 col-sm-3 col-xs-12 null">
+                                                    <div class="input--summa">
+                                                        <div class="item2"><span>Выберите сумму:</span></div>
+                                                        <div class="item2"><span id="ex-slider-val"></span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 col-sm-3 col-xs-4 item null">
+                                                    <div class="result">
+                                                        <div class="icon">
+                                                            <img src="img/svg/commission.svg" alt="">
+                                                        </div>
+                                                        <span class="result-text">Комиссия</span>
+                                                        <p class="ex-Commission"></p>
+                                                    </div>
+
+                                                </div>
+                                                <div class="col-md-3 col-sm-3 col-xs-4 item null">
+                                                    <div class="result">
+                                                        <div class="icon">
+                                                            <img src="img/svg/term.svg" alt="">
+                                                        </div>
+                                                        <span class="result-text">Срок </span>
+                                                        <p class="ex-time"></p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 col-sm-3 col-xs-4 item last">
+                                                    <div class="result">
+                                                        <div class="icon">
+                                                            <img src="img/svg/return.svg" alt="">
+                                                        </div>
+                                                        <span class="result-text">К возврату</span>
+                                                        <p class="ex-total"></p>
+                                                    </div>
+                                                </div>
+                                                <i></i>
+                                                <input type="range" id="rangeSlider" name="rangeSlider" min="1000" step="1000" max="100000" value="20000" class="slider range">
+                                                <input type="hidden" id="amount" name="amount" value="20000">
+                                                <input type="hidden" id="period" name="period" value="21">
+                                                <input type="hidden" id="form_slrd" name="form_slrd" value="15">
+                                                <input type="hidden" name="referer" value="<?php if (isset($_SERVER['HTTP_REFERER'])) echo $_SERVER['HTTP_REFERER']; ?>">
+                                            </div>
+                                        </div>
+                                        <div class="form-group has-feedback">
+                                            <label class="control-label col-md-4 label-required" for="f">Фамилия <span style="color: #ffb80a">*</span></label>
+                                            <div class="col-md-7">
+                                                <div class="ex-wrapper"> 
+                                                    <input type="text" class="form-control ec tip" name="f" id="f" placeholder="Фамилия" title="Введите свою фамилию" data-sanitize="capitalize" data-validation="custom" data-validation-regexp="^[А-Яа-яЁё\-\s]+$" data-validation-error-msg="Введите свою фамилию" required>
+                                                    <span id="fstatus" class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                                                    <div>
+                                                       <p class="help-block2">Нужно указать имя</p>
+                                                        <p class="text-muted text-right">Пример: Иванова</p>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div> 
+                                        <div class="form-group has-feedback">
+                                            <label class="control-label col-md-4 label-required" for="i">Имя <span style="color: #ffb80a">*</span></label>
+                                            <div class="col-md-7"> 
+                                                <div class="ex-wrapper">
+                                                    <input type="text" class="form-control ec tip" name="i" id="i" placeholder="Имя" title="Введите свое имя" data-sanitize="capitalize" data-validation="custom" data-validation-regexp="^[А-Яа-яЁё\-\s]+$" data-validation-error-msg="Введите свое имя" required>
+                                                    <span id="istatus" class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                                                    <div><p class="help-block2">Нужно указать имя</p> 
+                                                        <p class="text-muted text-right">Пример: Инна</p></div>
+                                                </div>
+                                            </div>
+                                        </div> 
+                                        <div class="form-group has-feedback">
+                                            <label class="control-label col-md-4 label-required" for="o">Отчество <span style="color: #ffb80a">*</span></label>
+                                            <div class="col-md-7">
+                                                <div class="ex-wrapper"> 
+                                                    <input type="text" class="form-control ec tip sp_push_custom_data" name="o" id="o" placeholder="Отчество" title="Введите свое отчество" data-sanitize="capitalize" data-validation="custom" data-validation-regexp="^[А-Яа-яЁё\-\s]+$" data-validation-error-msg="Введите свое отчество" required>
+                                                    <span id="ostatus" class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                                                    <p class="help-block2">Нужно указать отчество</p> 
+                                                    <p class="text-muted text-right">Пример: Ивановна</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <input type="hidden" id="gender" value="1" name="gender"> 
+
+                                        <!-- Скрываем старую форму даты рождения -->
+                                        <div class="form-group has-feedback">
+                                            <label class="control-label col-md-4 label-required" for="birthdate">Дата рождения <span style="color: #ffb80a">*</span></label>
+                                            <div class="col-md-7">
+                                                <div class="ex-wrapper">
+                                                    <input type="tel" class="form-control ec tip" id="birthdate" name="birthdate" placeholder="Дата рождения" title="Укажите свою дату рождения" data-validation="custom" data-validation-regexp="^[0-9]{2}\/[0-9]{2}\/[0-9]{4}$" data-validation-error-msg="Укажите дату рождения" required>
+                                                    <span id="birthdatestatus" class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                                                    <p class="help-block2"></p>
+                                                    <p class="text-muted text-right">Пример: 01/01/1970</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group has-feedback">
+                                            <label class="control-label col-md-4 label-required" for="phone">Телефон <span style="color: #ffb80a">*</span></label>
+                                            <div class="col-md-7">
+                                                <div class="ex-wrapper">
+                                                    <input type="tel" class="form-control ec tip" name="phone" id="phone" placeholder="Телефон" title="Введите свой телефон" data-validation="custom" data-validation-regexp="^[8]\s\([0-9]{3}\)\s[0-9]{3}\s[0-9]{4}$" data-validation-error-msg="Укажите № телефона" required>
+                                                    <span id="phonestatus" class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                                                    <p class="help-block2">Нужно указать номер телефона</p>
+                                                    <p class="text-muted text-right">Пример: 8 (977) 777 7777</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group has-feedback dadata">
+                                            <label class="control-label col-md-4" for="email">Email<span style="color: #ffb80a">*</span></label>
+                                            <div class="col-md-7">
+                                                <div class="ex-wrapper">
+                                                    <input type="email" class="form-control ec tip sp_push_custom_data" name="email" id="email" title="Введите свой email адрес" placeholder="Email" data-validation="email" data-validation-error-msg="Укажите ваш email" required>
+                                                    <span id="emailstatus" class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                                                    <p class="help-block2"></p>
+                                                    <p class="text-muted text-right">Пример: email@mail.ru</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="control-label col-md-4" for="credit">Кредитная история <span style="color: #ffb80a">*</span></label>
+                                            <div class="col-md-7">
+                                                <select size="1" class="form-control" id="credit">
+                                                    <option selected>Никогда не брал кредитов</option>
+                                                    <option>Кредиты закрыты, просрочек не было</option>
+                                                    <option>Кредиты есть, просрочек нет</option>
+                                                    <option>Кредиты закрыты, просрочки были</option>
+                                                    <option>Просрочки были, сейчас нет</option>
+                                                    <option>Просрочки сейчас есть</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-7 col-md-offset-4 ex-agreement-check">
+                                                <br>
+                                                <label class="checkbox-inline"><span>Я согласен на обработку персональных данных и с публичной офертой</span>
+                                                    <input type="checkbox" value="" id="agree" onclick="checkMe();" checked>
+                                                    <i></i>
+                                                </label>
+                                                <label class="hidden">
+                                                    <input type="checkbox" id="marketing" value="1" checked>
+                                                    <b>Я согласен(на) получать маркетинговые рассылки с предложениями микрозаймов</b>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="col-md-12 col-xs-12 text-center" id="my_btn"> 
+                                               <span class="form--button"> <button class="ex-main-btn button blue--bg" id="next1" type="button"> Далее > </button> 
+												   <span class="desc--button">Высокий уровень безопасности данных</span></span>
+                                            </div>
+                                        </div> 
+
+
+
+                                    </div>
+                                </div>
+                                <div class="row tab-content">
+                                    <div role="tabpanel" class="tab-pane col-xs-12" id="secondTabContent">
+                                        2 step <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos eaque natus reiciendis minima adipisci vel. Eius eaque, natus placeat totam!
+                                    </div>
+                                </div>
+                                <div class="row tab-content">
+                                    <div role="tabpanel" class="tab-pane col-xs-12" id="lastTabContent">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam commodi non sapiente illo, laudantium ut voluptas, optio iure delectus voluptatem praesentium ratione voluptate, doloremque, magni mollitia. Accusantium aspernatur molestias assumenda, aliquid incidunt iure optio saepe maxime minus. Numquam a corporis illo esse tempora! Ipsam quam facilis fugiat illum qui, consequuntur!
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2">
+                        <img src="img/footer--logo.png" alt=""> 
+                    </div>
+                    <div class="col-md-7 desc">
+                        <p>ZaimoMoney.ru  не является кредитором, это портал о финансовых услугах банков, 
+                            который предлогает клиентам простые и удобные кредитные решения.
+                            Займы предоставляются на сумму от 1 000 до 100 000 рублей включительно на срок 
+                            от 61 до 365 дней. Максимальная процентная ставка по займу составляет 0,98% в день, 
+                            а минимальная 0,08%.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <ul class="footer--menu">
+                            <li><a href="#">Получить деньги</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Пользовательское соглашение</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <span class="copyright">Copyright © 2018 ZaimoMoney.  All rights reserved.</span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+        <div class="hidden"></div>
+
+        <!--[if lt IE 9]>
+<script src="libs/html5shiv/es5-shim.min.js"></script>
+<script src="libs/html5shiv/html5shiv.min.js"></script>
+<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+<script src="libs/respond/respond.min.js"></script>
+<![endif]-->
+
+        <!-- Load Scripts Start -->
+        <script>
+            var scr = {
+                "scripts": [{
+                    "src": "js/libs.js",
+                    "async": false
+                },
+                            {
+                                "src": "js/common.js",
+                                "async": false
+                            }
+                           ]
+            };
+            ! function(t, n, r) {
+                "use strict";
+                var c = function(t) {
+                    if ("[object Array]" !== Object.prototype.toString.call(t)) return !1;
+                    for (var r = 0; r < t.length; r++) {
+                        var c = n.createElement("script"),
+                            e = t[r];
+                        c.src = e.src, c.async = e.async, n.body.appendChild(c)
+                    }
+                    return !0
+                };
+                t.addEventListener ? t.addEventListener("load", function() {
+                    c(r.scripts);
+                }, !1) : t.attachEvent ? t.attachEvent("onload", function() {
+                    c(r.scripts)
+                }) : t.onload = function() {
+                    c(r.scripts)
+                }
+            }(window, document, scr);
+
+        </script>
+        <!-- Load Scripts End -->
+        <script src="libs/jquery/jquery.min.js"></script>
+        <script src="libs/bootstrap-3.3.6/dist/js/bootstrap.min.js"></script>
+        <script src="libs/bootstrap-3.3.6/dist/js/npm.js"></script>
+        <script src="libs/ion.rangeSlider/js/ion.rangeSlider.min.js"></script>
+        <script src="js/loanCalculator.js"></script>
+        <script src="js/common.js"></script>
+        <script src="libs/slick-carousel/slick/slick.min.js"></script>
+        <script src="libs/matchHeight/dist/jquery.matchHeight-min.js"></script>
+        <script src="js/jquery.form-validator.js"></script>
+        <script>
+            function getParameterByName(name, url) {
+                if (!url) url = window.location.href;
+                name = name.replace(/[\[\]]/g, "\\$&");
+                var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+                    results = regex.exec(url);
+                if (!results) return null;
+                if (!results[2]) return '';
+                return decodeURIComponent(results[2].replace(/\+/g, " "));
+            }
+
+            function goToForm() {
+                var tt = $('#ex-slider-val').text();
+                tt = tt.split(" ").join("");
+                setcookie('sldr', tt, (new Date).getTime() + (365 * 24 * 60 * 60 * 1000), '/');
+                var slider = $("#rangeSlider").data("ionRangeSlider");
+                var from2 = slider.result.from;
+                $('#from_slrd').val(from2);
+                setcookie('sldr2', from2, (new Date).getTime() + (365 * 24 * 60 * 60 * 1000), '/');
+                var days = $('#period').val();
+                if (days === '') days = 21;
+                setcookie('per', days, (new Date).getTime() + (365 * 24 * 60 * 60 * 1000), '/');
+                var days2 = $('#period2').val();
+                setcookie('per2', days2, (new Date).getTime() + (365 * 24 * 60 * 60 * 1000), '/');
+                $('#anketa').submit();
+            };
+
+            function goToLk() {
+                window.location.href = window.location.origin + '/lk';
+            };
+
+            function goToUp() {
+                $('html, body').animate({
+                    scrollTop: $('.ex-range-scope').offset().top
+                }, 1000);
+            }
+
+            function goToReceiveMoney() {
+                window.location.href = window.location.origin + '/money';
+            }
+            $("#rangeSlider").ionRangeSlider({
+                hide_min_max: true,
+                hide_from_to: true,
+                keyboard: true,
+                grid: false,
+                from: <?php
+
+                if(isset($_GET['amount']))
+                {
+                switch($_GET['amount'])
+                {
+                case '1000': $from = '0' ; break;
+                case '2000': $from = '1' ; break;
+                case '3000': $from = '2' ; break;
+                case '4000': $from = '3' ; break;
+                case '5000': $from = '4' ; break;
+                case '6000': $from = '5' ; break;
+                case '7000': $from = '6' ; break;
+                case '8000': $from = '7' ; break;
+                case '9000': $from = '8' ; break;
+                case '10000': $from = '9' ; break;
+                case '11000': $from = '10' ; break;
+                case '12000': $from = '11' ; break;
+                case '13000': $from = '12' ; break;
+                case '14000': $from = '13' ; break;
+                case '15000': $from = '14' ; break;
+                case '20000': $from = '15' ; break;
+                case '25000': $from = '16' ; break;
+                case '30000': $from = '17' ; break;
+                case '40000': $from = '18' ; break;
+                case '50000': $from = '19' ; break;
+                case '80000': $from = '20' ; break;
+                case '100000': $from = '21' ; break;
+            }
+                                             echo $from;
+                                             }
+                                             elseif(!isset($_POST['form_slrd'])) echo '15'; else echo $_POST['form_slrd'];
+            ?>,
+                values: [1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 11000, 12000, 13000, 14000, 15000, 20000, 25000, 30000, 40000, 50000, 80000, 100000],
+                    onChange: function(range) {
+                        if (range.from_value <= 10000) {
+                            $('#period').val('7');
+                            $('#period2').val('От 61 до 130 дней');
+                        } else if (range.from_value <= 15000) {
+                            $('#period').val('14');
+                            $('#period2').val('От 61 до 130 дней');
+                        } else if (range.from_value <= 20000) {
+                            $('#period').val('21');
+                            $('#period2').val('От 61 до 130 дней');
+                        } else if (range.from_value <= 30000) {
+                            $('#period').val('21');
+                            $('#period2').val('От 61 до 130 дней');
+                        } else if (range.from_value <= 50000) {
+                            $('#period').val('30');
+                            $('#period2').val('От 130 до 250 дней');
+                        } else {
+                            $('#period').val('30');
+                            $('#period2').val('От 250 до 365 дней');
+                        }
+                        $('#amount').val(range.from_value);
+                        $('#form_slrd').val(range.from);
+                    }
+            });
+            $(document).ready(function() {
+                var slider3 = $('#rangeSlider').data('ionRangeSlider');
+                var slider_plus = true;
+                var n = 10;
+                var slider_init = setInterval(function() {
+                    if (slider_plus) {
+                        n++;
+                    } else {
+                        n--;
+                    }
+
+                    if (n == 21 && n != <?php echo $from;?>) {
+                        slider_plus = false;
+                    } else if (n == <?php echo $from;?> && slider_plus == false) {
+                        clearInterval(slider_init);
+                    } else if (n == 21 && n == <?php echo $from;?>) {
+                        clearInterval(slider_init);
+                    }
+
+                    slider3.update({
+                        from: n
+                    });
+
+                    if (slider3.result.from_value <= 10000) {
+                        $('#period').val('7');
+                        $('#period2').val('От 61 до 130 дней');
+                    } else if (slider3.result.from_value <= 15000) {
+                        $('#period').val('14');
+                        $('#period2').val('От 61 до 130 дней');
+                    } else if (slider3.result.from_value <= 20000) {
+                        $('#period').val('21');
+                        $('#period2').val('От 61 до 130 дней');
+                    } else if (slider3.result.from_value <= 30000) {
+                        $('#period').val('21');
+                        $('#period2').val('От 61 до 130 дней');
+                    } else if (slider3.result.from_value <= 50000) {
+                        $('#period').val('30');
+                        $('#period2').val('От 130 до 250 дней');
+                    } else {
+                        $('#period').val('30');
+                        $('#period2').val('От 250 до 365 дней');
+                    }
+                    $('#amount').val(slider3.result.from_value);
+                    $('#form_slrd').val(slider3.result.from);
+
+                }, 50);
+            });
+
+        </script>
+
+        <script>
+            function getParameterByName(name, url) {
+                if (!url) url = window.location.href;
+                name = name.replace(/[\[\]]/g, "\\$&");
+                var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+                    results = regex.exec(url);
+                if (!results) return null;
+                if (!results[2]) return '';
+                return decodeURIComponent(results[2].replace(/\+/g, " "));
+            }
+
+        </script>
+        <script>
+            $(document).ready(function() {
+                $("#rangeSlider").ionRangeSlider({
+                    hide_min_max: true,
+                    hide_from_to: true,
+                    keyboard: true,
+                    grid: false,
+                    from: <?php
+
+                    if(isset($_GET['amount']))
+                    {
+                    switch($_GET['amount'])
+                    {
+                    case '1000': $from = '0' ; break;
+                    case '2000': $from = '1' ; break;
+                    case '3000': $from = '2' ; break;
+                    case '4000': $from = '3' ; break;
+                    case '5000': $from = '4' ; break;
+                    case '6000': $from = '5' ; break;
+                    case '7000': $from = '6' ; break;
+                    case '8000': $from = '7' ; break;
+                    case '9000': $from = '8' ; break;
+                    case '10000': $from = '9' ; break;
+                    case '11000': $from = '10' ; break;
+                    case '12000': $from = '11' ; break;
+                    case '13000': $from = '12' ; break;
+                    case '14000': $from = '13' ; break;
+                    case '15000': $from = '14' ; break;
+                    case '20000': $from = '15' ; break;
+                    case '25000': $from = '16' ; break;
+                    case '30000': $from = '17' ; break;
+                    case '40000': $from = '18' ; break;
+                    case '50000': $from = '19' ; break;
+                    case '80000': $from = '20' ; break;
+                    case '100000': $from = '21' ; break;
+                }
+                                                 echo $from;
+                                                 }
+                                                 elseif(!isset($_POST['form_slrd'])) echo '15'; else echo $_POST['form_slrd'];
+                ?>,
+                    values: [1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 11000, 12000,
+                             13000, 14000, 15000, 20000, 25000, 30000, 40000, 50000, 80000, 100000
+                            ],
+                        onChange: function(range) {
+                            $('#amount').val(range.from_value);
+                            if (range.from_value <= 10000) {
+                                $('#period').val('7');
+                                $('#period2').val('От 61 до 130 дней');
+                            } else if (range.from_value <= 15000) {
+                                $('#period').val('14');
+                                $('#period2').val('От 61 до 130 дней');
+                            } else if (range.from_value <= 20000) {
+                                $('#period').val('21');
+                                $('#period2').val('От 61 до 130 дней');
+                            } else if (range.from_value <= 30000) {
+                                $('#period').val('21');
+                                $('#period2').val('От 61 до 130 дней');
+                            } else if (range.from_value <= 50000) {
+                                $('#period').val('30');
+                                $('#period2').val('От 130 до 250 дней');
+                            } else {
+                                $('#period').val('30');
+                                $('#period2').val('От 250 до 365 дней');
+                            }
+                        }
+            });
+
+            var slider4 = $('#rangeSlider').data('ionRangeSlider');
+
+            if (slider4.result.from_value <= 10000) {
+                $('.ex-time').text('От 61 до 130 дней');
+            } else if (slider4.result.from_value <= 15000) {
+                $('.ex-time').text('От 61 до 130 дней');
+            } else if (slider4.result.from_value <= 20000) {
+                $('.ex-time').text('От 61 до 130 дней');
+            } else if (slider4.result.from_value <= 30000) {
+                $('.ex-time').text('От 61 до 130 дней');
+            } else if (slider4.result.from_value <= 50000) {
+                $('.ex-time').text('От 130 до 250 дней');
+            } else {
+                $('.ex-time').text('От 250 до 365 дней');
+            }
+            });
+
+
+            $(function() {
+                $('.h-title').matchHeight();
+            });
+
+        </script>
+
+
+    </body>
+
+</html>
