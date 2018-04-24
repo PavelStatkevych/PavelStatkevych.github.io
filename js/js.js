@@ -8,4 +8,6 @@ $(document).ready(function(){
 	$('.header-wrapper').addClass('animated bounceInDown');
 	$('.main-head').addClass('animated bounceInLeft');
 	$('.works').addClass('animated bounceInUp');
+	$('.portfolio-head').addClass('animated bounceInLeft');
+	$('.projects-wrapper').addClass('animated bounceInUp');
 });
