@@ -1,3 +1,11 @@
+.header-video {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 600px;
+  position: absolute;
+  z-index: -1; }
+
 .small-header {
   background-color: #2C2C2C; }
 
@@ -85,7 +93,7 @@
 
 /******************* HEADER BLOCK *************************/
 .header {
-  background-image: url(../../img/bg-1.png);
+  background: rgba(0, 0, 0, 0.5) url("img/bg-1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 667px; }
@@ -138,6 +146,19 @@
   font-weight: 100; }
 
 /******************* WORKS BLOCK *************************/
+.main-index-content {
+  position: relative;
+  width: 100%;
+  background-color: #fff; }
+  .main-index-content:before {
+    content: '';
+    position: absolute;
+    top: -100px;
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid #fff;
+    border-left: 100vw solid transparent; }
+
 .works {
   max-width: 1170px;
   margin: 0 auto 123px auto; }
@@ -341,7 +362,7 @@
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease; }
   .service-link:hover .service-head {
-    color: #fff; }
+    color: #E7E7E7; }
   .service-link:hover .service-discr {
     color: #fff; }
 
@@ -782,6 +803,7 @@
 
 * {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box; }
+          box-sizing: border-box;
+  outline: none; }
 
 /*# sourceMappingURL=style.css.map */
