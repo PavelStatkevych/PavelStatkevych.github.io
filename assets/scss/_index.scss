@@ -16,7 +16,6 @@
 	padding: 10px 0;
 	margin: 0 20px;
 	color: #fff;
-	font-family: 'Arial', sans-serif;
 	transition: all 0.3s ease;
 	&:hover {
 		border-bottom:1px solid #277abf;
@@ -28,7 +27,6 @@
 	padding: 10px 0;
 	margin: 0 20px;
 	color: #fff;
-	font-family: 'Arial', sans-serif;
 	transition: all 0.3s ease;
 	&:hover {
 		color:  #277abf;
@@ -75,7 +73,6 @@
 }
 .head {
 	color: #fff;
-	font-family: 'Arial', sans-serif;
 }
 .product-slider-wrap {
 	display: flex;
@@ -85,7 +82,24 @@
 .product-slide {
 	background-color: #242424;
 	position: relative;
-	font-family: 'Arial', sans-serif;
+}
+.product-link {
+	width: 20%;
+	margin: 0 10px;
+	overflow:hidden;
+	&:hover .new-car-img {
+		transform:scale(1.1);
+	}
+}
+
+.new-car-img {
+	width: 100%;
+	height: 100%;
+	transition: all 0.3s ease;
+}
+.item {
+	overflow: hidden;
+	text-align: center;
 }
 .item-discr {
 	color: #fff;
@@ -124,4 +138,81 @@
 	font-size: 24px;
 	color: #277abf;
 	font-weight: bold;
+}
+.item-sold {
+	position: relative;
+	font-size: 40px;
+	letter-spacing: 1px;
+	color: rgba(255,255,255, 0.5);
+	transition: all 0.3s ease;
+	&:after {
+		content:'ПРОДАНО';
+		position: absolute;
+		z-index: 3;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%); 
+	}
+}
+.sold {
+	&:hover .item{
+		color: rgba(255,255,255, 0.9);
+	}
+	&:before {
+		content:'';
+		position: absolute;
+		top: 0;
+		right: 0;
+		left: 0;
+		bottom: 0;
+		background-color: rgba(0,0,0, 0.5);
+		z-index: 2;
+	}
+}
+.about-wrap {
+	display: flex;
+	width: 60%;
+	margin: 0 auto;
+	/*justify-content: space-between;*/
+}
+.about-logo {
+	padding-right: 50px;
+}
+.about-text-container {
+	width: 70%;
+	padding-left: 50px;
+	border-left:1px solid #D9D9D9;
+}
+.about-text {
+	line-height: 24px;
+	color: #292929;
+}
+.sign {
+	width: 10%;
+	margin: 39px auto 0 auto;
+}
+.about {
+	background-color: #F0F0F0;
+	padding: 80px 0; 
+}
+.info-section-wrap {
+	display: flex;
+	margin: 80px auto ;
+	width: 1170px;
+	justify-content: space-around;
+}
+.info-item {
+	display: flex;
+	width: 33.33%;
+}
+.text-wrap {
+	margin: 0 20px;
+}
+@media screen and (max-width: 1366px) {
+	.about-wrap {
+		width: 80%;
+	}
+	.product-slider-wrap {
+		margin: 20px 10px;
+	}
 }
