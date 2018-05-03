@@ -1,9 +1,10 @@
 $(document).ready(function(){
-	$('.feedback').slick({
-		// autoplay:true,
-		autoplaySpeed: 5000,
-		prevArrow: $('.btn-left'),
-		nextArrow: $('.btn-right')
+	$('.product-slider-wrap').slick({
+		autoplay:true,
+		autoplaySpeed: 3000,
+		slidesToShow: 5,
+		slidesToScroll: 5,
+		arrows: false
 	});
 	$('.header-wrapper').addClass('animated bounceInDown');
 	$('.main-head').addClass('animated bounceInLeft');

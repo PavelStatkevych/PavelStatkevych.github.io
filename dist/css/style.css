@@ -116,6 +116,10 @@
   overflow: hidden;
   text-align: center; }
 
+.item-img {
+  width: 100%;
+  height: 100%; }
+
 .item-discr {
   color: #fff;
   padding: 20px; }
@@ -123,6 +127,10 @@
 .item-head {
   margin: 0 0 20px 0;
   padding: 0; }
+
+.par-list-item {
+  font-size: 14px;
+  line-height: 20px; }
 
 .parametr-list {
   list-style: none;
@@ -230,6 +238,9 @@
 
 .text-wrap {
   margin: 0 20px; }
+
+.sign-img {
+  opacity: 0.7; }
 
 @media screen and (max-width: 1366px) {
   .about-wrap {
