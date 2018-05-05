@@ -121,7 +121,7 @@
 .slick-dots
 {
     position: absolute;
-    bottom: 0;
+    bottom: 40px;
     left:0;
 
     display: block;
@@ -142,7 +142,7 @@
 
     width: 20px;
     height: 20px;
-    margin: 0 5px;
+    margin: 0 2px;
     padding: 0;
 
     cursor: pointer;
@@ -184,17 +184,15 @@
     position: absolute;
     top: 0;
     left: 0;
-
+    bottom: 0;
     width: 14px;
     height: 14px;
 
     content: '';
     text-align: center;
 
-    opacity: .45;
-    /*background-color: #6CC72C;*/
-    border-radius: 50%;
-    border:2px solid #6CC72C;
+    /*opacity: 0;*/
+    background-color: #fff;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -202,6 +200,88 @@
 .slick-dots li.slick-active button:before
 {
     opacity: 1;
-    background-color: #6CC72C;
-    color: #6CC72C;
+    background-color: #007BC2;
+}
+.dots-bottom {
+     position: absolute;
+    bottom: -40px;
+    left:0;
+
+    display: block;
+
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+    list-style: none;
+
+    text-align: center;
+}
+.dots-bottom li
+{
+    position: relative;
+
+    display: inline-block;
+
+    width: 20px;
+    height: 20px;
+    margin: 0 2px;
+    padding: 0;
+
+    cursor: pointer;
+}
+.dots-bottom li button
+{
+    font-size: 0;
+    line-height: 0;
+
+    display: block;
+
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+
+    cursor: pointer;
+
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+.dots-bottom li button:hover,
+.dots-bottom li button:focus
+{
+    outline: none;
+}
+.dots-bottom li button:hover:before,
+.dots-bottom li button:focus:before
+{
+    opacity: 1;
+}
+.dots-bottom li button:before
+{
+    font-family: 'slick';
+    font-size: 12px;
+    line-height: 20px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 14px;
+    height: 14px;
+
+    content: '';
+    text-align: center;
+
+    /*opacity: 0;*/
+    background-color: #fff;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.dots-bottom li.slick-active button:before
+{
+    opacity: 1;
+    background-color: #007BC2;
 }

@@ -6,7 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="dist/css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="dist/css/animate.css">
 	<link rel="stylesheet" type="text/css" href="slick/slick.css">
-	<!-- <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"> -->
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
 	<link rel="stylesheet" type="text/css" href="dist/css/style.css">
 </head>
 <body>
@@ -19,15 +19,23 @@
 				<a href="#" class="nav-menu--link">Контакты</a>
 			</nav>
 			<nav class="contacts-list">
-				<a class="nav-menu phone" href="tel:+380674303332">+38(067)430-33-32</a>
+				<a class="nav-menu" href="tel:+380674303332">+38(067)430-33-32</a>
 				<a class="nav-menu second-phone" href="tel:++48883886906">+48 883 886 906 (Poland)</a>
 				<a class="nav-menu order-btn" href="#">ЗАКАЗАТЬ ЗВОНОК</a>
 			</nav>
 		</div>
 	</header>
 	<section class="header-slider">
-		<div class="slider">
-			<div class="slide">
+		<div class="slide slide1">
+			<div class="slide-inner">
+				<div class="logo-wrap">
+					<a href="/"><img src="img/logo1.png" alt="Ka-auto" class="logo"></a>
+				</div>
+				<h1 class="head">Ваша мечта ближе, чем кажется!</h1>
+			</div>
+		</div>
+		<div class="slide slide2">
+			<div class="slide-inner">
 				<div class="logo-wrap">
 					<a href="/"><img src="img/logo1.png" alt="Ka-auto" class="logo"></a>
 				</div>
@@ -376,56 +384,66 @@
 		</div>
 	</section>
 	<section class="feedback-section">
-		<h2 class="feedback-head">Сотни довольных клиентов</h2>
-		<a href="#" class="know-price-link">Узнай стоимость растаможки авто прямо сейчас!</a>
-		<div class="feedback-slider">
-			<div class="feedback-slide">
-				<div class="person">
-					<img src="" alt="" class="person-img">
-					<span class="person-name">Some name, from Kiev</span>
-					<span class="person-feedback">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque ducimus dolorem, nam enim non maxime, ullam corporis facere iste! Beatae earum placeat eaque unde, aut quidem mollitia odio sint ab?</span>
+		<div class="feedback-wrap">
+			<h2 class="feedback-head">Сотни довольных клиентов</h2>
+			<a href="#" class="know-price-link">Узнай стоимость растаможки авто прямо сейчас!</a>
+			<div class="feedback-slider">
+				<div class="feedback-slide">
+					<div class="person">
+						<img src="img/client1.png" alt="" class="person-img">
+						<span class="person-discr person-name">Антон, г. Херсон</span>
+						<span class="person-discr person-feedback">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque ducimus dolorem, nam enim non maxime, ullam corporis facere iste! Beatae earum placeat eaque unde, aut quidem mollitia odio sint ab?</span>
+					</div>
+				</div>
+				<div class="feedback-slide">
+					<div class="person">
+						<img src="img/client1.png" alt="" class="person-img">
+						<span class="person-discr person-name">Антон, г. Херсон</span>
+						<span class="person-discr person-feedback">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque ducimus dolorem, nam enim non maxime, ullam corporis facere iste! Beatae earum placeat eaque unde, aut quidem mollitia odio sint ab?</span>
+					</div>
+				</div>
+				<div class="feedback-slide">
+					<div class="person">
+						<img src="img/client1.png" alt="" class="person-img">
+						<span class="person-discr person-name">Антон, г. Херсон</span>
+						<span class="person-discr person-feedback">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque ducimus dolorem, nam enim non maxime, ullam corporis facere iste! Beatae earum placeat eaque unde, aut quidem mollitia odio sint ab?</span>
+					</div>
 				</div>
 			</div>
-			<div class="feedback-slide">
-				<div class="person">
-					<img src="" alt="" class="person-img">
-					<span class="person-name">Some name, from Kiev</span>
-					<span class="person-feedback">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque ducimus dolorem, nam enim non maxime, ullam corporis facere iste! Beatae earum placeat eaque unde, aut quidem mollitia odio sint ab?</span>
-				</div>
+			<div class="arrows">
+				<span class="arrow ar-prew">❮</span>
+				<span class="arrow ar-next">❯</span>
 			</div>
-			<div class="feedback-slide">
-				<div class="person">
-					<img src="" alt="" class="person-img">
-					<span class="person-name">Some name, from Kiev</span>
-					<span class="person-feedback">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque ducimus dolorem, nam enim non maxime, ullam corporis facere iste! Beatae earum placeat eaque unde, aut quidem mollitia odio sint ab?</span>
-				</div>
-			</div>
-		</div>	
+		</div>
 	</section>
 	<footer class="footer">
-		<div class="footerr-logo">
-			<img src="" alt="" class="footer-logo-img">
-		</div>
-		<div class="footer-nav">
-			<ul class="footer-nav-list">
-				<li class="footer-nav-link">Some text</li>
-				<li class="footer-nav-link">Some text</li>
-				<li class="footer-nav-link">Some text</li>
-				<li class="footer-nav-link">Some text</li>
-			</ul>
-		</div>
-		<div class="footer-contacts">
-			<div class="phones">
-				<a href="#" class="phone">+3123456789</a>
-				<a href="#" class="phone">+3123456789</a>
+		<div class="footer-wrap">
+			<div class="footerr-logo">
+				<img src="img/logo1.png" alt="" class="footer-logo-img">
 			</div>
-			<div class="email">
-				<a href="" class="email-link">qwerty@gmail.com</a>
+			<div class="footer-nav">
+				<ul class="footer-nav-list">
+					<li class="footer-nav-link"><a class="nav-menu--link" href="">Главная</a></li>
+					<li class="footer-nav-link"><a class="nav-menu--link" href="">Продукция</a></li>
+					<li class="footer-nav-link"><a class="nav-menu--link" href="">О компании</a></li>
+					<li class="footer-nav-link"><a class="nav-menu--link" href="">Контакты</a></li>
+				</ul>
 			</div>
-			<div class="skype">
-				<span class="skype-nick">Artem-Skype</span>
+			<div class="footer-contacts">
+				<div class="phones">
+					<a class="hover-effect phone" href="tel:+380674303332">+38(067)430-33-32</a>
+					<a class="hover-effect phone" href="tel:++48883886906">+48 883 886 906 (Poland)</a>
+				</div>
+				<div class="email">
+					<a href="" class="hover-effect email-link">qwerty@gmail.com</a>
+				</div>
+				<div class="skype">
+					<a href="#" class="hover-effect skype-nick">Artem-Skype</a>
+				</div>
 			</div>
-			<a href="#" class="call-back">ЗАКАЗАТЬ ЗВОНОК</a>
+			<div class="call-back">
+				<a class="ft-btn order-btn" href="#">ЗАКАЗАТЬ ЗВОНОК</a>
+			</div>
 		</div>
 	</footer>
 	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
