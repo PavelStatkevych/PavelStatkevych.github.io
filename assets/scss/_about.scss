@@ -1,0 +1,15 @@
+.about-container {
+	margin-right: 60px;
+	width: 50%;
+	&:last-child {
+		margin-right: 0;
+	}
+}
+.advantages {
+	list-style: none;
+}
+.advantages-link {
+	font-size: 14px;
+	color: #292929;
+	margin-left: 20px;
+}

@@ -1,4 +1,18 @@
 @charset "UTF-8";
+.about-container {
+  margin-right: 60px;
+  width: 50%; }
+  .about-container:last-child {
+    margin-right: 0; }
+
+.advantages {
+  list-style: none; }
+
+.advantages-link {
+  font-size: 14px;
+  color: #292929;
+  margin-left: 20px; }
+
 .header {
   position: absolute;
   z-index: 2;
@@ -78,6 +92,9 @@
 
 .slide2 {
   background-image: url("../../img/bg2.jpg"); }
+
+.slide3 {
+  background-image: url("../../img/abbg1.jpg"); }
 
 .slide-inner {
   position: absolute;
