@@ -1,4 +1,203 @@
 @charset "UTF-8";
+.header-fon {
+  position: relative;
+  height: 120px;
+  background-image: url("../../img/bg1.jpg");
+  background-position: center; }
+  .header-fon:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7); }
+
+.catalog-head {
+  text-align: center;
+  font-size: 40px; }
+
+.product-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 20px auto;
+  min-width: 1170px;
+  max-width: 1266px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.ct-product-link {
+  width: 33.33%;
+  margin: 0 10px;
+  overflow: hidden; }
+  .ct-product-link:hover .new-car-img {
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1); }
+
+.contacts-head {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 100; }
+
+.contacts {
+  width: 30%; }
+
+.contacts-form-wrapper {
+  width: 70%; }
+
+.contacts-form {
+  position: relative; }
+
+.inputs {
+  margin-right: 20px;
+  width: 50%; }
+
+.mes-text {
+  width: 50%; }
+
+.inputs-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.input-row {
+  display: block; }
+
+.our-contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 1170px;
+  max-width: 1170px;
+  margin: 0 auto 100px auto; }
+
+.input-row {
+  width: 100%;
+  margin-bottom: 20px;
+  line-height: 23px;
+  padding: 10px 20px; }
+  .input-row::-webkit-input-placeholder {
+    font-weight: bold;
+    color: #363737; }
+  .input-row:-ms-input-placeholder {
+    font-weight: bold;
+    color: #363737; }
+  .input-row::-ms-input-placeholder {
+    font-weight: bold;
+    color: #363737; }
+  .input-row::placeholder {
+    font-weight: bold;
+    color: #363737; }
+  .input-row:last-child {
+    margin-bottom: 0; }
+
+.mes {
+  width: 100%;
+  height: 100%;
+  line-height: 23px;
+  padding: 10px 20px;
+  resize: none; }
+  .mes::-webkit-input-placeholder {
+    font-weight: bold;
+    color: #363737; }
+  .mes:-ms-input-placeholder {
+    font-weight: bold;
+    color: #363737; }
+  .mes::-ms-input-placeholder {
+    font-weight: bold;
+    color: #363737; }
+  .mes::placeholder {
+    font-weight: bold;
+    color: #363737; }
+
+.send-btn {
+  float: right;
+  margin-top: 20px;
+  padding: 16px 60px;
+  color: #fff;
+  background-color: #007BC2;
+  text-transform: uppercase;
+  border: none;
+  letter-spacing: 1px;
+  border: 1px solid #007BC2;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  cursor: pointer; }
+  .send-btn:hover {
+    color: #007BC2;
+    background-color: #fff; }
+
+.contacts-adress {
+  position: relative;
+  margin-bottom: 30px; }
+  .contacts-adress:before {
+    position: absolute;
+    content: '';
+    width: 23px;
+    height: 30px;
+    background-image: url("../../img/place.png");
+    left: -35px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%); }
+
+.contacts-phones {
+  position: relative; }
+  .contacts-phones:before {
+    position: absolute;
+    content: '';
+    width: 25px;
+    height: 25px;
+    background-image: url("../../img/phone.png");
+    left: -35px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%); }
+
+.contacts-phone {
+  display: block;
+  font-weight: bold;
+  color: #000;
+  line-height: 24px; }
+
+.contacts-email {
+  position: relative;
+  margin: 30px 0; }
+  .contacts-email:before {
+    position: absolute;
+    content: '';
+    width: 25px;
+    height: 18px;
+    background-image: url("../../img/mail.png");
+    left: -35px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%); }
+
+.contacts-skype {
+  position: relative; }
+  .contacts-skype:before {
+    position: absolute;
+    content: '';
+    width: 25px;
+    height: 25px;
+    background-image: url("../../img/skype.png");
+    left: -35px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%); }
+
+.contacts-link {
+  color: #303030; }
+
 .about-container {
   margin-right: 60px;
   width: 50%; }
