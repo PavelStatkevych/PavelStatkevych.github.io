@@ -22,7 +22,7 @@ $(document).ready(function(){
 	});
 	$('.feedback-slider').slick({
 		autoplay:true,
-		autoplaySpeed: 3000,
+		autoplaySpeed: 8000,
 		dots: true,
 		prevArrow: $('.ar-prew'),
 		nextArrow: $('.ar-next'),
