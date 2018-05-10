@@ -241,6 +241,10 @@
     border-bottom: 1px solid #277abf;
     color: #277abf; }
 
+.active-link {
+  border-bottom: 1px solid #277abf;
+  color: #277abf; }
+
 .nav-menu {
   text-decoration: none;
   padding: 10px 0;
@@ -448,7 +452,7 @@
   display: -ms-flexbox;
   display: flex;
   margin: 80px auto;
-  /*width: 1170px;*/
+  max-width: 1170px;
   -ms-flex-pack: distribute;
       justify-content: space-around; }
 

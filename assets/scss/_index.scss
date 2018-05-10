@@ -22,6 +22,10 @@
 		color:  #277abf;
 	}
 }
+.active-link {
+	border-bottom:1px solid #277abf;
+	color:  #277abf;
+}
 .nav-menu {
 	text-decoration: none;
 	padding: 10px 0;
@@ -216,7 +220,7 @@
 .info-section-wrap {
 	display: flex;
 	margin: 80px auto ;
-	/*width: 1170px;*/
+	max-width: 1170px;
 	justify-content: space-around;
 }
 .info-item {
