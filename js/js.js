@@ -1,4 +1,5 @@
 $(document).ready(function(){
+
 	$('.product-slider-wrap').slick({
 		autoplay:true,
 		autoplaySpeed: 3000,
@@ -37,6 +38,17 @@ $(document).ready(function(){
 		speed: 800,
 		fade: true,
 		cssEase: 'linear'
+	});
+	var slides = $('.parametr-list');
+	var maxH = 0;
+
+	for (var i = 0; i < slides.length; i++) {
+		if (slides.eq(i).height() > maxH) {
+			maxH = slides.eq(i).height();
+		}
+	}
+	slides.css({
+		'height': maxH
 	});
 	$('.header-wrapper').addClass('animated bounceInDown');
 	$('.main-head').addClass('animated bounceInLeft');

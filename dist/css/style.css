@@ -623,6 +623,8 @@
   color: green; }
 
 @media screen and (max-width: 1366px) {
+  .item {
+    height: 220px; }
   .slide {
     height: 600px; }
   .about-wrap {
