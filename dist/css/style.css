@@ -279,7 +279,8 @@
   position: relative;
   margin-top: -40px;
   height: 900px;
-  background-size: cover; }
+  background-size: cover;
+  background-position: center center; }
   .slide:before {
     content: '';
     position: absolute;
@@ -622,6 +623,8 @@
   color: green; }
 
 @media screen and (max-width: 1366px) {
+  .slide {
+    height: 600px; }
   .about-wrap {
     width: 80%; }
   .product-slider-wrap {
