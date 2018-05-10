@@ -2,15 +2,15 @@ $(document).ready(function(){
 	$('.product-slider-wrap').slick({
 		autoplay:true,
 		autoplaySpeed: 3000,
-		slidesToShow: 5,
-		slidesToScroll: 5,
+		slidesToShow: 4,
+		slidesToScroll: 4,
 		arrows: false
 	});
 	$('.feedback-slider').slick({
 		autoplay:true,
 		autoplaySpeed: 3000,
 		dots: true,
-		prevArrow: $('.ar-prev'),
+		prevArrow: $('.ar-prew'),
 		nextArrow: $('.ar-next'),
 		dotsClass: 'dots-bottom'
 	});
