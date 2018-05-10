@@ -3,7 +3,7 @@
 	z-index: 2;
 	width: 100%;
 	top:0;
-	min-width: 1170px;
+	/*min-width: 1170px;*/
 }
 .nav-wrap {
 	display: flex;
@@ -53,7 +53,7 @@
 .slide {
 	position: relative;
 	margin-top: -40px;
-	height: 100vh;
+	height: 900px;
 	background-size: cover;
 	&:before {
 		content:'';
@@ -216,7 +216,7 @@
 .info-section-wrap {
 	display: flex;
 	margin: 80px auto ;
-	width: 1170px;
+	/*width: 1170px;*/
 	justify-content: space-around;
 }
 .info-item {
@@ -295,7 +295,7 @@
 	background-size: cover;
 }
 .footer-wrap {
-	width: 1170px;
+	/*width: 1170px;*/
 	margin: 0 auto;
 	padding: 80px 0;
 	display: flex;
@@ -373,5 +373,19 @@
 	}
 	.product-slider-wrap {
 		margin: 20px 10px;
+	}
+}
+@media screen and (max-width: 1155px) {
+	.nav-menu {
+		margin: 0;
+	}
+	.nav-menu--link {
+		margin: 0 5px;
+	}
+	.first-phone {
+		padding-right: 5px;
+	}
+	.second-phone {
+		padding-left: 5px;
 	}
 }
