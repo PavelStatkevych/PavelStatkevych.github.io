@@ -1,0 +1,285 @@
+@media screen and (max-width: 1240px) {
+/*----- HoME -----*/
+ .mentor_p {
+    margin-right: 200px; 
+ }
+ header, section, .footer, .head, #head_logo {
+            width: 94%;
+        }
+    .last_part .resume {
+        margin-left: 16px;
+    }
+/*----- Portfolio page -----*/
+    #gallery .image-wrapper {
+        width: 46.25%;
+    
+    }
+/*----- Contact page -----*/
+  .contact_section {
+		left: .1%;
+		right: .1%;		
+	}
+
+    .feed_back {
+		width: 60%;
+		min-width: 520px;
+	}
+}
+@media screen and (max-width: 900px) {
+/*----- Home -----*/
+   /* .mentor_p {
+        padding-bottom: 40px;
+     }*/
+  header, section, .footer {
+            width: 96%;
+        }
+    .last_part {
+      float: left;
+      margin: 0 0 0 260px;
+      width: auto;
+    }
+    .image {
+      position: absolute;
+        top: 5%;
+        bottom: 5%;
+        min-width: 240px;
+    }
+
+    .resume {
+        bottom: 3.5%;
+    }
+/*----- SelfDevelopment page -----*/
+    ol {
+        bottom: -12px;
+    }
+
+    ol li{
+        width:14px;
+        height:14px;
+    }
+/*----- Portfolio page -----*/
+    .text1 p {
+        font-size: 1.1em;
+    }
+/*----- Contact page -----*/
+    .feed_back {
+		width: 65%;
+		min-width: 200px;
+	}
+	.mes {
+		margin: -10px 0 0 1em;
+	}
+
+    .input, .textarea {
+		width:65%;
+	}
+/*----Footer-----*/
+    footer {
+        position: relative;
+    }
+    footer ul li {
+        margin-left:10px;
+    }
+    .footer ul li:nth-child(4){
+        margin-left: 10%; 
+    }
+}
+
+@media screen and (max-width: 800px) {
+    
+    .feed_back {
+		width: 60%;
+	}
+    
+    label{
+	    margin: 0 1em 0.6em 0;
+        clear: both;
+        float: left;
+	}
+
+    .input, .textarea {
+		width: 94%;
+         float: left;
+          margin-bottom: 1em;
+	}
+
+    .mes {
+		margin: -10px 0 0 .5em;
+	}
+        
+}
+
+@media screen and (max-width: 650px) {
+/*----- Header nav -----*/
+    header {
+        height: 49px;   
+    }
+    #nav_about .nav a {
+        height: 49px;
+        
+    }
+    #nav_about .nav a:active {
+        height: 49px;
+    }
+/*----- Home page -----*/
+    .last_part {
+        float: none;
+        width: 100%;
+        margin: 105% 0 0 0;
+    }
+    .image {
+      position: absolute;
+        top: 1.5%;
+        bottom: 5%;
+        width: auto;
+        left: 2.5%;
+        right: 2.5%;
+    }
+    #under_info ul li {
+            display: inline-block;
+            width: 49%;
+            padding: 0;
+        }
+/*----- SelfDevelopment page -----*/
+    #text1 p{
+        font-size: 1em;
+    }
+
+    ol {
+        bottom: -14px;
+    }
+
+    ol li{
+        width:12px;
+        height:12px;
+    }
+     .footer ul li:nth-child(4){
+        display: block; 
+        margin: 0;
+    }
+
+     .footer ul li:nth-child(4) p {
+       text-align: center;
+    }
+/*----- Portfolio page -----*/
+    #gallery {
+        width: 100%;
+    }
+    #gallery .image-wrapper  {
+        width: 96%;
+    }
+/*----- Contact page -----*/
+
+ .feed_back {
+		width: 100%;
+	}
+
+    .input, .textarea {
+		width: 96.5%;
+	}
+
+    .mes {
+	 margin: 1em 0 1em -1em;
+	}
+    
+    /*.contact-info {
+        padding: 0;
+        padding-bottom: 2em; 
+    }
+    body {
+        overflow:visible;
+    }
+    .body-conten {
+        position: none;
+        overflow-y: hidden;
+    }*/
+}
+@media screen and (max-width: 500px) {
+/*----- Header nav -----*/ 
+    .mentor_p {
+        padding-bottom: 60px;
+        margin: 0;
+     }
+
+    h2 {
+        font-size: 4.8vw;
+    }
+    #nav_about .nav a {
+        padding: 0 2%;
+        font-size: 0.9em;
+    }
+    #nav_about .nav a:nth-child(4){
+        border-radius: 0 5px 0 5px;
+    }
+    
+     #nav_about .nav a:active {
+        padding: 0 2px;
+        font-size: 0.9em;
+    }
+/*----- Home page -----*/
+    .resume {
+            bottom: 2.5%;
+        }
+/*----- History page -----*/
+    ol
+    {
+        bottom: -16px;
+    }
+
+    ol li{
+        margin: 0 6px;
+        width:10px;
+        height:10px;
+    }
+    #text1 {
+        min-width: 100%;
+
+     }
+    #text1 p {
+        /*font-size: 13px;*/
+        padding: 0 5px;
+        /*margin: 0 5px;*/
+    }
+/*----- Contact page -----*/
+
+ .input, .textarea {
+		width: 95%;
+	}  
+}
+@media screen and (max-width: 370px) {
+/*----- Header nav -----*/ 
+
+
+     #nav_about .nav {
+        text-align: center;
+        }
+     #nav_about .nav a {
+        padding: 0 2%;
+        font-size: 15px;
+        }
+    #nav_about .nav a:nth-child(1){
+         /*padding: 0 3%;*/
+    }
+        header , section, .footer {
+            width: 100%;
+        }
+      
+/*----- History page -----*/
+        .body-content {
+            margin: 0 auto;
+        }
+
+         .input, .textarea {
+		width: 94%;
+	}
+}
+@media screen and (max-width: 350px) {
+/*----- Header nav -----*/
+     #nav_about .nav a {
+        padding: 0 2px;
+        font-size: 15px;
+    }
+
+
+    
+}

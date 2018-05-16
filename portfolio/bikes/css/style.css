@@ -1,0 +1,540 @@
+/*--- COMMON ---*/	
+	* {
+		text-decoration: none;
+		margin: 0;
+		padding: 0;
+		text-shadow: 2px 3px 5px #000;
+	}
+	p {
+		color: #AFAFAF;
+		text-align: justify;
+	}
+	h1, h2, h3, h4, h5 {
+		color: #fff;
+	}
+	body {
+		font-family: 'Arial', sans-serif;
+		min-width: 1350px;
+	}
+/*--- HEADER MAIN ---*/
+	.header {
+		background-image: url('../images/background/jpg/top-bike.jpg');
+		background-size: cover;
+		background-position: center;
+		height: 760px;
+	}
+/*--- HEADER TOP ---*/	
+	.top-logo-menu {
+		width: 100%;
+		background-color: #CE0000;
+		height: 52px;
+	}
+	.logo-menu {
+		width: 1000px;
+		padding: 0 174.5px;
+		margin: 0 auto;
+	}
+	.logo {
+		float: left;
+		font-size: 26px;
+		height: 52px;
+		margin: 0.5em 0;
+		height: 100%;
+		color: #fff;
+	}
+	.logo p, span {
+		color: #fff;
+	}
+	.logo p img {
+		margin: 0 0.1em 0 0.5em;
+	}
+	.logo-menu ul {
+		float: right;
+	}
+	.logo-menu ul li {
+		display: inline-block;
+		margin: 0.8em 0.5em;
+	}
+/*--- HEADER MIDDLE ---*/
+	.middle-logo-menu {
+		clear: both;
+		width: 100%;
+	}
+	.middle-logo {
+		width: 1000px;
+		padding: 0 174.5px;
+		margin: 0 auto;
+	}
+	.left-side-bar-section {
+		padding-right: 50px; 
+		float: left;
+	}
+	.left-side-bar-section ul{
+		padding-left: 675px;
+		margin-left: -574.5px;
+		margin-top:-5px;
+		background-color: rgba(0, 0, 0, 0.7);
+		list-style: none; 
+		text-align: right;
+		height: 707px;
+	}
+	.left-side-bar-section ul li:nth-child(1){
+		padding: 50px 70px 10px 0;
+
+	}
+	.left-side-bar-section ul li {
+		padding: 10px 70px 10px 0;
+	}
+	.left-side-bar-section ul li a p{
+		color: #AFAFAF;
+	}
+	.left-side-bar-section ul li a p:hover {
+		color: #fff;
+	}
+	.center-header-text {
+		float: right;
+		width: 650px;
+		margin: 220px auto 0 auto;
+	}
+	.center-header-text h2 {
+		margin-left: 3px; 
+	}
+	.center-header-text h1 {
+		font-size:85px;
+	}
+	.center-header-text p {
+		width: 650px;
+		margin-left: 3px;
+	}
+	
+	.button p {
+		background-color: #CE0000;
+		margin-top: 40px; 
+		padding:15px 25px;
+		width: 108px;
+		text-align: center;
+		box-shadow: 5px 5px 10px #000;
+		color: #fff;
+	}
+	.button p:hover {
+		background-color: #fff;
+		color: #CE0000;
+	}
+/*--- SECTION 1 ---*/
+	.first-section {
+		height: 730px;
+		background-color: #1B1B1B;
+		padding-top:25px;
+		margin-top: -1px; 
+	}
+	.top-block {
+		position: relative;
+		width: 1000px;
+		margin: -70px auto 0 auto;
+		background-color: #CE0000;
+		height: 480px;
+		z-index: 1;
+	}
+	.top-block-logo {
+		font-size: 1.5em;
+		padding: 40px 0 40px 40px;
+	}
+	.top-block h3 {
+		padding: 0 0 40px 40px;
+		font-size: 2em;
+		width: 300px;
+	}
+	.top-block p {
+		margin: 0 0 40px 40px;
+		width: 300px;
+		height: 70px;
+		overflow: hidden;
+	}
+	.top-block a .button2 {
+		padding: 15px 30px;
+		border:1px solid #AFAFAF;
+		text-align: center;
+		width: 107px;
+		height: 16px;
+	}
+	.top-block a .button2:hover {
+		background-color: #fff;
+		color: #CE0000;
+	}
+	.gallery {
+		position: absolute;
+		right: 80px;
+		top: 200px;
+		background-image: url('../images/background/png/gallery_background.png');
+		background-size: 100%;
+		z-index: 2;
+		width: 500px;
+		height: 323px;
+	}
+	.gallery .img img{
+		position: absolute;
+		right: 20px;
+		bottom: 26px;
+		width: 460px;
+		height: 270px;
+	}
+	.arrow {
+		position: absolute;
+		opacity: 0.7;
+	}
+	.arrow:hover {
+		opacity: 1;
+	}
+	.arrow:active{
+		opacity: 0.8;
+	}
+	.arrow_back {
+		top: 145px;
+		left: -30px;
+	}
+	.arrow_forward {
+		top: 145px;
+		right: -30px;
+	}
+	.text_first_section {
+		margin-top: 250px;
+	}
+	.text_first_section h2 {
+		font-size: 2em;
+	}
+	.text_first_section p {
+		width: 1000px;
+		margin: 20px 0 0 0;
+	}
+/*--- SECTION 2 ---*/
+	.second_section {
+		background-color: #1B1B1B;
+		width: 100%;
+		height: 845px;
+	}
+	.img_block{
+		width: 1350px;
+		margin: 0 auto
+	}
+	.img_block ul li{
+		display: inline-block;
+		margin: 0 -2px;
+		padding: 0;
+	}
+	.img_block ul li:nth-child(1){
+		margin-left: 1px;
+	}
+	.img_block ul li:nth-child(2){
+		position: absolute;
+		margin: -25px 0 0 -3px;
+	}
+	.img_block ul li:nth-child(3){
+		margin-left: 447px;
+	}
+	.text_second_section_block {
+		background-image: url('../images/background/jpg/second_section_background.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: bottom left;
+		height: 530px;
+		margin-top: -30px; 
+	}
+	.text_second_section_block2 {
+		width: 1000px;
+		margin: 0 auto
+	}
+	.text_second_section_block2 ul li {
+		display: inline-block;
+		width: 450px;
+		margin-top: 170px; 
+		vertical-align: top;
+	}
+	.text_second_section_block2 ul li:nth-child(2){
+		margin-left: 90px;
+	}
+	.text_second_section_block2 ul li h2{
+		width: 400px;
+		margin-bottom:40px; 
+	}
+/*--- SECTION 3 ---*/
+	.third_section {
+		background-image: url('../images/background/jpg/third_section_background.jpg');
+		background-position: right top;
+		background-size: cover;
+		height: 500px;
+	}
+	.third_section_iinfo_block {
+		width: 1000px;
+		margin: 0 auto;
+	}
+	.third_section_iinfo_block ul li {
+		display: inline-block;
+		width: 469px;
+		vertical-align: top;
+		margin-top: 50px; 
+	}
+	.third_section_iinfo_block ul li:nth-child(2){
+		margin-left: 56px;
+	}
+	.motoface {
+		background-image: url('../images/background/png/background_face.png');
+		background-size: cover;
+		background-color: grey;
+		border-radius: 50%;
+		height: 120px;
+		width: 120px;
+		margin: 0 auto 50px auto;
+	}
+	.third_section_iinfo_block ul li p {
+		margin-bottom: 20px; 
+		color: #fff;
+	}
+	.third_section_iinfo_block ul li h2 {
+		margin-bottom: 20px; 
+	}
+/*--- SECTION 4 ---*/
+	.forth_section {
+		background-image: url('../images/background/jpg/forth_section_background.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: 790px;
+	}
+	.text_forth_section {
+		width: 1000px;
+		margin: 0 auto;
+	}
+	.text_forth_section h2 {
+		padding: 200px 0 20px 0;
+	}
+	.text_forth_section p {
+		padding: 20px 0 20px 0;
+	}
+	.forth_section_gallery{
+		width: 1000px;
+		margin: 50px auto 0 auto;
+	}
+	.forth_section_gallery ul li{
+		position: relative;
+		display: inline-block;
+		width: 237px;
+		height: 200px;
+		margin:5px;
+	}
+	.forth_section_gallery ul li:nth-child(1){
+		margin-left: 0; 
+	}
+	.forth_section_gallery ul li:nth-child(4){
+		margin-right: 0; 
+	}
+	.forth_gallery_img img {
+		position: relative;
+		display: inline-block;
+		width: 238px;
+		height: 200px;
+		
+	}
+	.button_forth_gallery p{
+		position: absolute;
+		bottom: -25px;
+		left: 38px;
+		background-color: #CE0000;
+		padding:15px 25px;
+		width: 108px;
+		text-align: center;
+		box-shadow: 5px 5px 10px #000;
+		color: #fff;
+		z-index: ;
+	}
+	.button_forth_gallery p:hover {
+		background-color: #fff;
+		color: #CE0000;
+	}
+	.button_forth_gallery p:active {
+		background-color: #CE0000;
+		color: #fff;
+	}
+	.forth_arrow_back {
+		position: absolute;
+		left: -50px;
+		bottom: 80px;
+	}
+	.forth_arrow_forward {
+		position: absolute;
+		right: -50px;
+		bottom: 80px;
+	}
+/*--- SECTION 5 ---*/
+	.fifth_section {
+		background-color: #1B1B1B;
+		width: 100%;
+		height: 975px;
+	}
+	.club_blog {
+		width: 1350px;
+		height: 500px;
+		margin: 0 auto;
+	}
+	.club_blog_text {
+		background-color: #CE0000;
+		height: 100%;
+		width: 500px;
+		float: left;
+	}
+	.club_blog_text h2{
+		font-size: 40px;
+		margin: 100px 0 40px 70px; 
+	}
+	.club_blog_text p {
+		width: 380px;
+		margin: 0 0 40px 70px; 
+	}
+	.club_blog_text a .button2{
+		padding: 15px 30px;
+		border:1px solid #AFAFAF;
+		text-align: center;
+		width: 107px;
+		height: 16px;
+	}
+	.club_blog_text a .button2:hover {
+		background-color: #fff;
+		color: #CE0000;
+	}
+	.club_blog_img_section {
+		/*float: right;*/
+	}
+	.club_blog_img_part1 {
+		float: left;
+	}
+	.club_blog_img_section img {
+		display: block;
+		width: 425px;
+		height: 250px;
+	}
+	.under_club_blog {
+		background-image: url('../images/background/png/fifth_section_background.png');
+		background-size: cover;
+		background-position: top;
+		height: 475px;
+	}
+	.under_club_blog1 {
+		width: 1000px;
+		margin: 0 auto
+	}
+	.under_club_blog1 h2 {
+		padding: 140px 0 50px 0;
+		font-size: 30px;
+	}
+	.under_club_blog1 ul li {
+		display: inline-block;
+		vertical-align: top;
+	}
+	.under_club_blog1 ul li .underlogo{
+		width: 370px;
+		text-align: left;
+	}
+	.buttoon_under_club_blog p{
+		background-color: #CE0000;
+		margin-left: -5px;
+		padding:14px 25px;
+		width: 60px;
+		/*text-align: center;*/
+		box-shadow: 5px 5px 10px #000;
+		color: #fff;
+
+	}
+	.input_email {
+		text-align: left;
+		background-color: rgba(0, 0, 0, 0.5);
+		border:1px solid #fff;
+		font-size: 26px;
+		padding: 6px 40px 7px 10px;
+		margin: 0 0 0 100px;
+		color: #fff;
+	}
+/*--- FOOOTER MAIN ---*/
+	.footer_main {
+		background-color: #222222;
+	}
+	.footer_main_block {
+		width: 1000px;
+		height: 150px;
+		margin: 0 auto;
+	}
+	.footer_main_block ul li {
+		display: inline-block;
+		float: right;
+		margin: 3.75em 0.5em;
+	}
+	.footer_logo {
+		margin: 2.2em 0 0 0;
+		float: left;
+		font-size: 26px;
+		height: 52px;
+		color: #fff;
+	}
+	.footer_block {
+		margin-left: 60px; 
+		width: 341px;
+		float: left;
+	}
+	.footer_block .footer_logo_info {
+		margin-top: 120px;
+	}
+	.footer_block ul li {
+		list-style: none;
+		margin-top: 40px;
+		line-height: 26px;
+	}
+	.footer_block1 {
+		margin-left: 0;
+	}
+	.footer_block1 p {
+		margin-top: 30px;
+		line-height: 26px;
+	}
+	.footer_block2 {
+		float: left;
+	}
+	.footer_block3 {
+		float: right;
+		width: 230px;
+		margin-left: 20px; 
+	}
+	.footer_block3 h2 {
+		margin: 30px 0;
+	}
+	.footer_block3 p {
+		margin-top: 20px; 
+	}
+	footer {
+		background-image: url('../images/background/jpg/footer_section_background.jpg');
+		background-size: cover;
+		background-position: center;
+		width: 100%;
+		height:670px;
+	}
+	.footer {
+		width: 1000px;
+		margin: 0 auto;
+	}
+	.date {
+		display: block;
+		float: left;
+		margin: 0 10px 0 0; 
+		background-color: #CE0000;
+		text-align: center;
+		height: 60px;
+		width: 60px;
+		clear: left;
+	}
+	.date h2 {
+		font-size: 35px;
+	}
+	.copyrights {
+		background-color: #222222;
+		height: 74px;
+	}
+	.copyrights p {
+		text-align: center;
+		padding-top:30px;
+	}
