@@ -7,13 +7,23 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
+	<embed id="audio" type="audio/mp3" src="sound/4.mp3" volume="10" loop="true" autostart="true"/>
 	<div id="wrapper" class="sony-wrapper">
+		<nav id="buttons" class="buttons">
+			<a href="#" id="btn1" class="button-link button-link1"><img src="img/airplan.png" alt="airplane-ico" class="button-ico"></a>
+			<a href="#" id="btn2" class="button-link button-link2"><img src="img/forest.png" alt="forest-ico" class="button-ico button-tree-fix"></a>
+			<a href="#" id="btn3" class="button-link button-link3"><img src="img/car.png" alt="car-ico" class="button-ico"></a>
+			<a href="#" id="btn4" class="button-link button-link4 active"><img src="img/mic.png" alt="mic-ico" class="button-ico button-mic-fix"></a>
+		</nav>
 		<div class="head-logo"><img class="img" src="img/logo-top.png" alt=""></div>
 		<div class="sony-bg">
 			<div class="img-top"><img class="img" src="img/headphones.jpg" alt=""></div>
-			<div class="img-center"><img class="img" src="img/person.jpg" alt=""></div>
+			<div class="img-center"><img id="img-change" class="img" src="img/person.jpg" alt=""></div>
 			<div class="img-bottom"><img class="img" src="img/circle.jpg" alt=""></div>
 		</div>
 		<div class="bottom-logo"><img class="img" src="img/logo.png" alt=""></div>
 	</div>
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
 </html>
