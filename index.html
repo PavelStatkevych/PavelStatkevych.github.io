@@ -2,28 +2,182 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Sony</title>
-	<link rel="stylesheet" href="style.css">
+	<title>Darya Gapovenko</title>
+	<link rel="icon" href="img/favicon.png" sizes="32x32" type="image/png">
+	<link rel="stylesheet" type="text/css" href="dist/css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="dist/css/animate.css">
+	<link rel="stylesheet" type="text/css" href="slick/slick.css">
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+	<link rel="stylesheet" type="text/css" href="dist/css/style.css">
 </head>
 <body>
-	<embed id="audio" type="audio/mp3" src="sound/4.mp3" volume="10" loop="true" autostart="true"/>
-	<div id="wrapper" class="sony-wrapper">
-		<nav id="buttons" class="buttons">
-			<a href="#" id="btn1" class="button-link button-link1"><img src="img/airplan.png" alt="airplane-ico" class="button-ico"></a>
-			<a href="#" id="btn2" class="button-link button-link2"><img src="img/forest.png" alt="forest-ico" class="button-ico button-tree-fix"></a>
-			<a href="#" id="btn3" class="button-link button-link3"><img src="img/car.png" alt="car-ico" class="button-ico"></a>
-			<a href="#" id="btn4" class="button-link button-link4 active"><img src="img/mic.png" alt="mic-ico" class="button-ico button-mic-fix"></a>
-		</nav>
-		<div class="head-logo"><img class="img" src="img/logo-top.png" alt=""></div>
-		<div class="sony-bg">
-			<div class="img-top"><img class="img" src="img/headphones.jpg" alt=""></div>
-			<div class="img-center"><img id="img-change" class="img" src="img/person.jpg" alt=""></div>
-			<div class="img-bottom"><img class="img" src="img/circle.jpg" alt=""></div>
+	<header class="header">
+		<div class="header-wrapper">
+			<div class="header-nav">
+				<nav class="inner-nav">
+					<a href="" class="inner-link">Портфолио</a>
+					<a href="" class="inner-link">Обо мне</a>
+				</nav>
+				<div class="logo">
+					<a href="" class="logo-link">
+						<img src="img/logo.png" alt="" class="logo-img">
+					</a>
+				</div>
+				<nav class="inner-nav">
+					<a href="" class="inner-link">Контакты</a>
+					<a href="tel:+380502581525" class="inner-link">+38(050) 258 15 25</a>
+				</nav>
+			</div>
 		</div>
-		<div class="bottom-logo"><img class="img" src="img/logo.png" alt=""></div>
-	</div>
+	</header>
+	<section class="main-screen">
+		<div class="main-screen-wrapper">
+			<h1 class="main-screen--head">САЙТЫ</h1>
+			<span class="main-screen--discr">ДЛЯ ЛЮБОГО БИЗНЕСА</span>
+			<span class="main-screen--text">Только качественный веб - дизайн</span>
+		</div>
+		<div class="downArrow bounce">
+			<img src="img/arrow-down.png" alt="">
+		</div>
+	</section>
+	<section class="about-screen">
+		<h2 class="section-head about--head">КОРОТКО ОБО МНЕ</h2>
+		<div class="about-screen--wrapper">
+			<div class="about-screen-inner">
+				<div class="about-screen--text-wrapper">
+					<p class="about-screen--text">Здравствуйте, меня зовут Дарья Гапоненко.
+						Я — Веб - дизайнер, проектирую пользовательские веб-интерфейсы. К работе подхожу с полной ответственностью и максимальной отдачей.
+						Готова и способна помочь каждому человеку
+						в создании продающего сайта для любого бизнеса.
+					</p>
+					<ul class="why-me-list">
+						<li class="why-me-link">Профессионально и ответственно подхожу
+						к каждой детали</li>
+						<li class="why-me-link">Выполняю полностью уникальные разработки
+						под конкретную задачу</li>
+						<li class="why-me-link">Стремлюсь, чтобы заказчик остался доволен
+						не только конечным результатом, но и процессом сотрудничества со мной</li>
+					</ul>
+				</div>
+			</div>
+			<div class="designer-photo-wrapper">
+				<img src="img/Darya.png" alt="" class="designer">
+			</div>
+		</div>
+	</section>
+	<section class="special-skills">
+		<h2 class="section-head my-skills-head">МОИ СПЕЦИАЛИЗАЦИИ</h2>
+		<div class="special-skills-wrapper">
+			<div class="special-skills-box">
+				<div class="box-icon">
+					<img src="img/landing.svg" alt="" class="box-icon--img">
+				</div>
+				<span class="box-text"></span>
+			</div>
+			<div class="special-skills-box">
+				<div class="box-icon">
+					<img src="img/visit.svg" alt="" class="box-icon--img">
+				</div>
+				<span class="box-text"></span>
+			</div>
+			<div class="special-skills-box">
+				<div class="box-icon">
+					<img src="" alt="" class="box-icon--img">
+				</div>
+				<span class="box-text"></span>
+			</div>
+			<div class="special-skills-box">
+				<div class="box-icon">
+					<img src="" alt="" class="box-icon--img">
+				</div>
+				<span class="box-text"></span>
+			</div>
+			<div class="special-skills-box">
+				<div class="box-icon">
+					<img src="" alt="" class="box-icon--img">
+				</div>
+				<span class="box-text"></span>
+			</div>
+		</div>
+	</section>
+	<section class="portfolio">
+		<h2 class="section-head portfolio-head">ПОСЛЕДНИЕ РАБОТЫ</h2>
+		<div class="portfolio-wrapper">
+			<ul class="portfolio-list">
+				<li class="portfolio-item">
+					<a href="#" class="portfolio-item-link">
+						<img src="" alt="" class="portfolio-item--img">
+					</a>
+				</li>
+				<li class="portfolio-item">
+					<a href="#" class="portfolio-item-link">
+						<img src="" alt="" class="portfolio-item--img">
+					</a>
+				</li>
+				<li class="portfolio-item">
+					<a href="#" class="portfolio-item-link">
+						<img src="" alt="" class="portfolio-item--img">
+					</a>
+				</li>
+				<li class="portfolio-item">
+					<a href="#" class="portfolio-item-link">
+						<img src="" alt="" class="portfolio-item--img">
+					</a>
+				</li>
+				<li class="portfolio-item">
+					<a href="#" class="portfolio-item-link">
+						<img src="" alt="" class="portfolio-item--img">
+					</a>
+				</li>
+				<li class="portfolio-item">
+					<a href="#" class="portfolio-item-link">
+						<img src="" alt="" class="portfolio-item--img">
+					</a>
+				</li>
+				<li class="portfolio-item">
+					<a href="#" class="portfolio-item-link">
+						<img src="" alt="" class="portfolio-item--img">
+					</a>
+				</li>
+				<li class="portfolio-item">
+					<a href="#" class="portfolio-item-link">
+						<img src="" alt="" class="portfolio-item--img">
+					</a>
+				</li>
+				<li class="portfolio-item">
+					<a href="#" class="portfolio-item-link">
+						<img src="" alt="" class="portfolio-item--img">
+					</a>
+				</li>
+			</ul>
+		</div>
+	</section>
+	<section class="contacts">
+		<h2 class="section-head contacts-head">КОНТАКТЫ</h2>
+		<div class="contacts-wrapper">
+			<a href="#" class="contact-link">
+				<img src="" alt="" class="contact-icon">
+				<span class="contact-text">УКРАИНА, КИЕВ</span>
+			</a>
+			<a href="#" class="contact-link">
+				<img src="" alt="" class="contact-icon">
+				<span class="contact-text">daryagaponenko88@gmai.com</span>
+			</a>
+			<a href="#" class="contact-link">
+				<img src="" alt="" class="contact-icon">
+				<span class="contact-text">+38(050) 258 15 25</span>
+			</a>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="copyright-wrapper">
+			<a href="#" class="desighnet-by">Дизайн: Далрья Гапоненко</a>
+			<a href="#" class="developt-by">Реализация: Gretex Web Development</a>
+			<span class="deffence">© Все права защищены / 2018 г</span>
+		</div>
+	</footer>
 	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
-	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="slick/slick.min.js"></script>
+	<script type="text/javascript" src="js/js.js"></script>
 </body>
 </html>
