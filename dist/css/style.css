@@ -248,7 +248,7 @@
 .item-box {
   position: relative;
   width: 25%;
-  height: 400px;
+  height: 293px;
   margin: 0 10px;
   -webkit-box-shadow: 1px 1px 5px #9A9997;
           box-shadow: 1px 1px 5px #9A9997;
@@ -258,9 +258,10 @@
 
 .disc-precent {
   position: absolute;
-  top: 14px;
-  font-size: 33px;
-  padding: 11px 19px;
+  top: 12px;
+  left: -2px;
+  font-size: 24px;
+  padding: 7px 15px;
   background-image: url("../../img/bg-p.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -268,12 +269,12 @@
   color: #fff; }
 
 .item-img__wrap {
-  margin-top: 86px;
-  max-height: 184px;
+  margin-top: 44px;
+  max-height: 132px;
   text-align: center; }
 
 .item-img {
-  height: 184px;
+  height: 132px;
   width: auto; }
 
 .item-discr {
