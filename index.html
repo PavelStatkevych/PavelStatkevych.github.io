@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Darya Gapovenko</title>
-	<link rel="icon" href="img/favicon.png" sizes="32x32" type="image/png">
+	<title>Gold</title>
+	<link rel="icon" href="" sizes="32x32" type="image/png">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="dist/css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="dist/css/animate.css">
 	<link rel="stylesheet" type="text/css" href="slick/slick.css">
@@ -13,171 +14,971 @@
 <body>
 	<header class="header">
 		<div class="header-wrapper">
-			<div class="header-nav">
-				<nav class="inner-nav">
-					<a href="" class="inner-link">Портфолио</a>
-					<a href="" class="inner-link">Обо мне</a>
-				</nav>
-				<div class="logo">
-					<a href="" class="logo-link">
-						<img src="img/logo.png" alt="" class="logo-img">
-					</a>
-				</div>
-				<nav class="inner-nav">
-					<a href="" class="inner-link">Контакты</a>
-					<a href="tel:+380502581525" class="inner-link">+38(050) 258 15 25</a>
-				</nav>
+			<nav class="head-nav">
+				<a href="#" class="head-nav__link nav-link">О нас</a>
+				<a href="#" class="head-nav__link nav-link">Доставки и оплата</a>
+				<a href="#" class="head-nav__link nav-link">Новости</a>
+				<a href="#" class="head-nav__link nav-link">Контакты</a>
+			</nav>
+			<div class="tel-box">
+				<a href="#" class="tel-box__link nav-link">+38 (050) 833-76-94</a>
 			</div>
+			<div class="search-box">
+				<form action="" class="serch-form">
+					<input type="text" class="serch-input" placeholder="Я ищу...">
+					<button class="search-btn">
+						<span class="serch-submit"></span>
+					</button>
+				</form>
+			</div>
+			<a href="#" class="bascet-btn">
+				<span class="bascet-val">1</span>
+				<span class="total-price">16.500 грн</span>
+			</a>
 		</div>
 	</header>
-	<section class="main-screen">
-		<div class="main-screen-wrapper">
-			<h1 class="main-screen--head">САЙТЫ</h1>
-			<span class="main-screen--discr">ДЛЯ ЛЮБОГО БИЗНЕСА</span>
-			<span class="main-screen--text">Только качественный веб - дизайн</span>
-		</div>
-		<div class="downArrow bounce">
-			<img src="img/arrow-down.png" alt="">
-		</div>
-	</section>
-	<section class="about-screen">
-		<h2 class="section-head about--head">КОРОТКО ОБО МНЕ</h2>
-		<div class="about-screen--wrapper">
-			<div class="about-screen-inner">
-				<div class="about-screen--text-wrapper">
-					<p class="about-screen--text">Здравствуйте, меня зовут Дарья Гапоненко.
-						Я — Веб - дизайнер, проектирую пользовательские веб-интерфейсы. К работе подхожу с полной ответственностью и максимальной отдачей.
-						Готова и способна помочь каждому человеку
-						в создании продающего сайта для любого бизнеса.
-					</p>
-					<ul class="why-me-list">
-						<li class="why-me-link">Профессионально и ответственно подхожу
-						к каждой детали</li>
-						<li class="why-me-link">Выполняю полностью уникальные разработки
-						под конкретную задачу</li>
-						<li class="why-me-link">Стремлюсь, чтобы заказчик остался доволен
-						не только конечным результатом, но и процессом сотрудничества со мной</li>
-					</ul>
-				</div>
+	<div class="ct-menu">
+		<nav class="ct-nav">
+			<a href="#" class="logo-link">GOLD</a>
+			<a href="#" class="ct-nav__link women"><span class="ct-nav__inner">Женщинам</span></a>
+			<a href="#" class="ct-nav__link men"><span class="ct-nav__inner">Мужчинам</span></a>
+			<a href="#" class="ct-nav__link child"><span class="ct-nav__inner">Детям</span></a>
+			<a href="#" class="ct-nav__link jawel"><span class="ct-nav__inner">Ювелирные<br>украшения</span></a>
+			<a href="#" class="ct-nav__link metal"><span class="ct-nav__inner">Металлы</span></a>
+		</nav>
+	</div>
+	<section class="slider-sec">
+		<div class="slider-wrap">
+			<div class="slider">
+				<div class="slide slide1"><img src="img/1.jpg" alt=""></div>
+				<div class="slide slide2"><img src="img/2.jpg" alt=""></div>
+				<div class="slide slide3"><img src="img/3.jpg" alt=""></div>
+				<div class="slide slide4"><img src="img/4.jpg" alt=""></div>
 			</div>
-			<div class="designer-photo-wrapper">
-				<img src="img/Darya.png" alt="" class="designer">
+			<div class="arrows">
+				<span class="arrow-top ar-prew-top slick-arrow" style="">❮</span>
+				<span class="arrow-top ar-next-top slick-arrow" style="">❯</span>
 			</div>
 		</div>
 	</section>
-	<section class="special-skills">
-		<h2 class="section-head my-skills-head">МОИ СПЕЦИАЛИЗАЦИИ</h2>
-		<div class="special-skills-wrapper">
-			<div class="special-skills-box">
-				<div class="box-icon">
-					<img src="img/landing.svg" alt="" class="box-icon--img">
+	<section class="sale">
+		<h2 class="section-head">Акционные предложения</h2>
+		<div class="sale-catalog-slider-wrap">
+			<div class="sale-catalog-slider">
+				<div class="sale-catalog-slide sale-catalog-slide1">
+					<div class="product-row">
+						<a href="#" class="item-box">
+							<span class="disc-precent">-40%</span>
+							<div class="item-img__wrap">
+								<img src="catalog/ring.png" alt="" class="item-img">
+							</div>
+							<span class="item-discr">Кольцо с брилиантами и аметистом</span>
+							<div class="price-wrap">
+								<span class="price old-price">-7000 грн</span>
+								<span class="price new-price">6000 грн</span>
+							</div>
+						</a>
+						<a href="#" class="item-box">
+							<span class="disc-precent">-30%</span>
+							<div class="item-img__wrap">
+								<img src="catalog/err.png" alt="" class="item-img">
+							</div>
+							<span class="item-discr">Кольцо с брилиантами и аметистом</span>
+							<div class="price-wrap">
+								<span class="price old-price">-12000 грн</span>
+								<span class="price new-price">9000 грн</span>
+							</div>
+						</a>
+						<a href="#" class="item-box">
+							<span class="disc-precent">-15%</span>
+							<div class="item-img__wrap">
+								<img src="catalog/two-rings.png" alt="" class="item-img">
+							</div>
+							<span class="item-discr">Кольцо с брилиантами и аметистом</span>
+							<div class="price-wrap">
+								<span class="price old-price">-9500 грн</span>
+								<span class="price new-price">8500 грн</span>
+							</div>
+						</a>
+						<a href="#" class="item-box">
+							<span class="disc-precent">-40%</span>
+							<div class="item-img__wrap">
+								<img src="catalog/ring.png" alt="" class="item-img">
+							</div>
+							<span class="item-discr">Кольцо с брилиантами и аметистом</span>
+							<div class="price-wrap">
+								<span class="price old-price">-7000 грн</span>
+								<span class="price new-price">6000 грн</span>
+							</div>
+						</a>
+					</div>
+					<div class="product-row">
+						<a href="#" class="item-box">
+							<span class="disc-precent">-30%</span>
+							<div class="item-img__wrap">
+								<img src="catalog/err.png" alt="" class="item-img">
+							</div>
+							<span class="item-discr">Кольцо с брилиантами и аметистом</span>
+							<div class="price-wrap">
+								<span class="price old-price">-12000 грн</span>
+								<span class="price new-price">9000 грн</span>
+							</div>
+						</a>
+						<a href="#" class="item-box">
+							<span class="disc-precent">-40%</span>
+							<div class="item-img__wrap">
+								<img src="catalog/ring.png" alt="" class="item-img">
+							</div>
+							<span class="item-discr">Кольцо с брилиантами и аметистом</span>
+							<div class="price-wrap">
+								<span class="price old-price">-7000 грн</span>
+								<span class="price new-price">6000 грн</span>
+							</div>
+						</a>
+						<a href="#" class="item-box">
+							<span class="disc-precent">-30%</span>
+							<div class="item-img__wrap">
+								<img src="catalog/err.png" alt="" class="item-img">
+							</div>
+							<span class="item-discr">Кольцо с брилиантами и аметистом</span>
+							<div class="price-wrap">
+								<span class="price old-price">-12000 грн</span>
+								<span class="price new-price">9000 грн</span>
+							</div>
+						</a>
+						<a href="#" class="item-box">
+							<span class="disc-precent">-15%</span>
+							<div class="item-img__wrap">
+								<img src="catalog/two-rings.png" alt="" class="item-img">
+							</div>
+							<span class="item-discr">Кольцо с брилиантами и аметистом</span>
+							<div class="price-wrap">
+								<span class="price old-price">-9500 грн</span>
+								<span class="price new-price">8500 грн</span>
+							</div>
+						</a>
+					</div>
 				</div>
-				<span class="box-text"></span>
+				<div class="sale-catalog-slide sale-catalog-slide2">
+					<div class="product-row">
+						<a href="#" class="item-box">
+							<span class="disc-precent">-40%</span>
+							<div class="item-img__wrap">
+								<img src="catalog/ring.png" alt="" class="item-img">
+							</div>
+							<span class="item-discr">Кольцо с брилиантами и аметистом</span>
+							<div class="price-wrap">
+								<span class="price old-price">-7000 грн</span>
+								<span class="price new-price">6000 грн</span>
+							</div>
+						</a>
+						<a href="#" class="item-box">
+							<span class="disc-precent">-30%</span>
+							<div class="item-img__wrap">
+								<img src="catalog/err.png" alt="" class="item-img">
+							</div>
+							<span class="item-discr">Кольцо с брилиантами и аметистом</span>
+							<div class="price-wrap">
+								<span class="price old-price">-12000 грн</span>
+								<span class="price new-price">9000 грн</span>
+							</div>
+						</a>
+						<a href="#" class="item-box">
+							<span class="disc-precent">-15%</span>
+							<div class="item-img__wrap">
+								<img src="catalog/two-rings.png" alt="" class="item-img">
+							</div>
+							<span class="item-discr">Кольцо с брилиантами и аметистом</span>
+							<div class="price-wrap">
+								<span class="price old-price">-9500 грн</span>
+								<span class="price new-price">8500 грн</span>
+							</div>
+						</a>
+						<a href="#" class="item-box">
+							<span class="disc-precent">-40%</span>
+							<div class="item-img__wrap">
+								<img src="catalog/ring.png" alt="" class="item-img">
+							</div>
+							<span class="item-discr">Кольцо с брилиантами и аметистом</span>
+							<div class="price-wrap">
+								<span class="price old-price">-7000 грн</span>
+								<span class="price new-price">6000 грн</span>
+							</div>
+						</a>
+					</div>
+					<div class="product-row">
+						<a href="#" class="item-box">
+							<span class="disc-precent">-30%</span>
+							<div class="item-img__wrap">
+								<img src="catalog/err.png" alt="" class="item-img">
+							</div>
+							<span class="item-discr">Кольцо с брилиантами и аметистом</span>
+							<div class="price-wrap">
+								<span class="price old-price">-12000 грн</span>
+								<span class="price new-price">9000 грн</span>
+							</div>
+						</a>
+						<a href="#" class="item-box">
+							<span class="disc-precent">-40%</span>
+							<div class="item-img__wrap">
+								<img src="catalog/ring.png" alt="" class="item-img">
+							</div>
+							<span class="item-discr">Кольцо с брилиантами и аметистом</span>
+							<div class="price-wrap">
+								<span class="price old-price">-7000 грн</span>
+								<span class="price new-price">6000 грн</span>
+							</div>
+						</a>
+						<a href="#" class="item-box">
+							<span class="disc-precent">-30%</span>
+							<div class="item-img__wrap">
+								<img src="catalog/err.png" alt="" class="item-img">
+							</div>
+							<span class="item-discr">Кольцо с брилиантами и аметистом</span>
+							<div class="price-wrap">
+								<span class="price old-price">-12000 грн</span>
+								<span class="price new-price">9000 грн</span>
+							</div>
+						</a>
+						<a href="#" class="item-box">
+							<span class="disc-precent">-15%</span>
+							<div class="item-img__wrap">
+								<img src="catalog/two-rings.png" alt="" class="item-img">
+							</div>
+							<span class="item-discr">Кольцо с брилиантами и аметистом</span>
+							<div class="price-wrap">
+								<span class="price old-price">-9500 грн</span>
+								<span class="price new-price">8500 грн</span>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="sale-catalog-slide sale-catalog-slide3">
+					<div class="product-row">
+						<a href="#" class="item-box">
+							<span class="disc-precent">-40%</span>
+							<div class="item-img__wrap">
+								<img src="catalog/ring.png" alt="" class="item-img">
+							</div>
+							<span class="item-discr">Кольцо с брилиантами и аметистом</span>
+							<div class="price-wrap">
+								<span class="price old-price">-7000 грн</span>
+								<span class="price new-price">6000 грн</span>
+							</div>
+						</a>
+						<a href="#" class="item-box">
+							<span class="disc-precent">-30%</span>
+							<div class="item-img__wrap">
+								<img src="catalog/err.png" alt="" class="item-img">
+							</div>
+							<span class="item-discr">Кольцо с брилиантами и аметистом</span>
+							<div class="price-wrap">
+								<span class="price old-price">-12000 грн</span>
+								<span class="price new-price">9000 грн</span>
+							</div>
+						</a>
+						<a href="#" class="item-box">
+							<span class="disc-precent">-15%</span>
+							<div class="item-img__wrap">
+								<img src="catalog/two-rings.png" alt="" class="item-img">
+							</div>
+							<span class="item-discr">Кольцо с брилиантами и аметистом</span>
+							<div class="price-wrap">
+								<span class="price old-price">-9500 грн</span>
+								<span class="price new-price">8500 грн</span>
+							</div>
+						</a>
+						<a href="#" class="item-box">
+							<span class="disc-precent">-40%</span>
+							<div class="item-img__wrap">
+								<img src="catalog/ring.png" alt="" class="item-img">
+							</div>
+							<span class="item-discr">Кольцо с брилиантами и аметистом</span>
+							<div class="price-wrap">
+								<span class="price old-price">-7000 грн</span>
+								<span class="price new-price">6000 грн</span>
+							</div>
+						</a>
+					</div>
+					<div class="product-row">
+						<a href="#" class="item-box">
+							<span class="disc-precent">-30%</span>
+							<div class="item-img__wrap">
+								<img src="catalog/err.png" alt="" class="item-img">
+							</div>
+							<span class="item-discr">Кольцо с брилиантами и аметистом</span>
+							<div class="price-wrap">
+								<span class="price old-price">-12000 грн</span>
+								<span class="price new-price">9000 грн</span>
+							</div>
+						</a>
+						<a href="#" class="item-box">
+							<span class="disc-precent">-40%</span>
+							<div class="item-img__wrap">
+								<img src="catalog/ring.png" alt="" class="item-img">
+							</div>
+							<span class="item-discr">Кольцо с брилиантами и аметистом</span>
+							<div class="price-wrap">
+								<span class="price old-price">-7000 грн</span>
+								<span class="price new-price">6000 грн</span>
+							</div>
+						</a>
+						<a href="#" class="item-box">
+							<span class="disc-precent">-30%</span>
+							<div class="item-img__wrap">
+								<img src="catalog/err.png" alt="" class="item-img">
+							</div>
+							<span class="item-discr">Кольцо с брилиантами и аметистом</span>
+							<div class="price-wrap">
+								<span class="price old-price">-12000 грн</span>
+								<span class="price new-price">9000 грн</span>
+							</div>
+						</a>
+						<a href="#" class="item-box">
+							<span class="disc-precent">-15%</span>
+							<div class="item-img__wrap">
+								<img src="catalog/two-rings.png" alt="" class="item-img">
+							</div>
+							<span class="item-discr">Кольцо с брилиантами и аметистом</span>
+							<div class="price-wrap">
+								<span class="price old-price">-9500 грн</span>
+								<span class="price new-price">8500 грн</span>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="sale-catalog-slide sale-catalog-slide4">
+					<div class="product-row">
+						<a href="#" class="item-box">
+							<span class="disc-precent">-40%</span>
+							<div class="item-img__wrap">
+								<img src="catalog/ring.png" alt="" class="item-img">
+							</div>
+							<span class="item-discr">Кольцо с брилиантами и аметистом</span>
+							<div class="price-wrap">
+								<span class="price old-price">-7000 грн</span>
+								<span class="price new-price">6000 грн</span>
+							</div>
+						</a>
+						<a href="#" class="item-box">
+							<span class="disc-precent">-30%</span>
+							<div class="item-img__wrap">
+								<img src="catalog/err.png" alt="" class="item-img">
+							</div>
+							<span class="item-discr">Кольцо с брилиантами и аметистом</span>
+							<div class="price-wrap">
+								<span class="price old-price">-12000 грн</span>
+								<span class="price new-price">9000 грн</span>
+							</div>
+						</a>
+						<a href="#" class="item-box">
+							<span class="disc-precent">-15%</span>
+							<div class="item-img__wrap">
+								<img src="catalog/two-rings.png" alt="" class="item-img">
+							</div>
+							<span class="item-discr">Кольцо с брилиантами и аметистом</span>
+							<div class="price-wrap">
+								<span class="price old-price">-9500 грн</span>
+								<span class="price new-price">8500 грн</span>
+							</div>
+						</a>
+						<a href="#" class="item-box">
+							<span class="disc-precent">-40%</span>
+							<div class="item-img__wrap">
+								<img src="catalog/ring.png" alt="" class="item-img">
+							</div>
+							<span class="item-discr">Кольцо с брилиантами и аметистом</span>
+							<div class="price-wrap">
+								<span class="price old-price">-7000 грн</span>
+								<span class="price new-price">6000 грн</span>
+							</div>
+						</a>
+					</div>
+					<div class="product-row">
+						<a href="#" class="item-box">
+							<span class="disc-precent">-30%</span>
+							<div class="item-img__wrap">
+								<img src="catalog/err.png" alt="" class="item-img">
+							</div>
+							<span class="item-discr">Кольцо с брилиантами и аметистом</span>
+							<div class="price-wrap">
+								<span class="price old-price">-12000 грн</span>
+								<span class="price new-price">9000 грн</span>
+							</div>
+						</a>
+						<a href="#" class="item-box">
+							<span class="disc-precent">-40%</span>
+							<div class="item-img__wrap">
+								<img src="catalog/ring.png" alt="" class="item-img">
+							</div>
+							<span class="item-discr">Кольцо с брилиантами и аметистом</span>
+							<div class="price-wrap">
+								<span class="price old-price">-7000 грн</span>
+								<span class="price new-price">6000 грн</span>
+							</div>
+						</a>
+						<a href="#" class="item-box">
+							<span class="disc-precent">-30%</span>
+							<div class="item-img__wrap">
+								<img src="catalog/err.png" alt="" class="item-img">
+							</div>
+							<span class="item-discr">Кольцо с брилиантами и аметистом</span>
+							<div class="price-wrap">
+								<span class="price old-price">-12000 грн</span>
+								<span class="price new-price">9000 грн</span>
+							</div>
+						</a>
+						<a href="#" class="item-box">
+							<span class="disc-precent">-15%</span>
+							<div class="item-img__wrap">
+								<img src="catalog/two-rings.png" alt="" class="item-img">
+							</div>
+							<span class="item-discr">Кольцо с брилиантами и аметистом</span>
+							<div class="price-wrap">
+								<span class="price old-price">-9500 грн</span>
+								<span class="price new-price">8500 грн</span>
+							</div>
+						</a>
+					</div>
+				</div>
 			</div>
-			<div class="special-skills-box">
-				<div class="box-icon">
-					<img src="img/visit.svg" alt="" class="box-icon--img">
-				</div>
-				<span class="box-text"></span>
-			</div>
-			<div class="special-skills-box">
-				<div class="box-icon">
-					<img src="" alt="" class="box-icon--img">
-				</div>
-				<span class="box-text"></span>
-			</div>
-			<div class="special-skills-box">
-				<div class="box-icon">
-					<img src="" alt="" class="box-icon--img">
-				</div>
-				<span class="box-text"></span>
-			</div>
-			<div class="special-skills-box">
-				<div class="box-icon">
-					<img src="" alt="" class="box-icon--img">
-				</div>
-				<span class="box-text"></span>
+			<div class="arrows">
+				<span class="arrow ar-prew slick-arrow" style="">❮</span>
+				<span class="arrow ar-next slick-arrow" style="">❯</span>
 			</div>
 		</div>
 	</section>
-	<section class="portfolio">
-		<h2 class="section-head portfolio-head">ПОСЛЕДНИЕ РАБОТЫ</h2>
-		<div class="portfolio-wrapper">
-			<ul class="portfolio-list">
-				<li class="portfolio-item">
-					<a href="#" class="portfolio-item-link">
-						<img src="" alt="" class="portfolio-item--img">
-					</a>
-				</li>
-				<li class="portfolio-item">
-					<a href="#" class="portfolio-item-link">
-						<img src="" alt="" class="portfolio-item--img">
-					</a>
-				</li>
-				<li class="portfolio-item">
-					<a href="#" class="portfolio-item-link">
-						<img src="" alt="" class="portfolio-item--img">
-					</a>
-				</li>
-				<li class="portfolio-item">
-					<a href="#" class="portfolio-item-link">
-						<img src="" alt="" class="portfolio-item--img">
-					</a>
-				</li>
-				<li class="portfolio-item">
-					<a href="#" class="portfolio-item-link">
-						<img src="" alt="" class="portfolio-item--img">
-					</a>
-				</li>
-				<li class="portfolio-item">
-					<a href="#" class="portfolio-item-link">
-						<img src="" alt="" class="portfolio-item--img">
-					</a>
-				</li>
-				<li class="portfolio-item">
-					<a href="#" class="portfolio-item-link">
-						<img src="" alt="" class="portfolio-item--img">
-					</a>
-				</li>
-				<li class="portfolio-item">
-					<a href="#" class="portfolio-item-link">
-						<img src="" alt="" class="portfolio-item--img">
-					</a>
-				</li>
-				<li class="portfolio-item">
-					<a href="#" class="portfolio-item-link">
-						<img src="" alt="" class="portfolio-item--img">
-					</a>
-				</li>
-			</ul>
+	<section class="sale">
+		<div class="section-tabs-wrap">
+			<h2 class="section-tabs-head">Новые поступления</h2>
+			<span class="slash"></span>
+			<h2 class="section-tabs-head">Трендовые товары</h2>
+		</div>
+		<div class="sale-catalog-slider-wrap">
+			<div class="sale-catalog-slider2">
+				<div class="sale-catalog-slide sale-catalog-slide1">
+					<div class="product-row">
+						<a href="#" class="item-box">
+							<span class="disc-precent">-40%</span>
+							<div class="item-img__wrap">
+								<img src="catalog/ring.png" alt="" class="item-img">
+							</div>
+							<span class="item-discr">Кольцо с брилиантами и аметистом</span>
+							<div class="price-wrap">
+								<span class="price old-price">-7000 грн</span>
+								<span class="price new-price">6000 грн</span>
+							</div>
+						</a>
+						<a href="#" class="item-box">
+							<span class="disc-precent">-30%</span>
+							<div class="item-img__wrap">
+								<img src="catalog/err.png" alt="" class="item-img">
+							</div>
+							<span class="item-discr">Кольцо с брилиантами и аметистом</span>
+							<div class="price-wrap">
+								<span class="price old-price">-12000 грн</span>
+								<span class="price new-price">9000 грн</span>
+							</div>
+						</a>
+						<a href="#" class="item-box">
+							<span class="disc-precent">-15%</span>
+							<div class="item-img__wrap">
+								<img src="catalog/two-rings.png" alt="" class="item-img">
+							</div>
+							<span class="item-discr">Кольцо с брилиантами и аметистом</span>
+							<div class="price-wrap">
+								<span class="price old-price">-9500 грн</span>
+								<span class="price new-price">8500 грн</span>
+							</div>
+						</a>
+						<a href="#" class="item-box">
+							<span class="disc-precent">-40%</span>
+							<div class="item-img__wrap">
+								<img src="catalog/ring.png" alt="" class="item-img">
+							</div>
+							<span class="item-discr">Кольцо с брилиантами и аметистом</span>
+							<div class="price-wrap">
+								<span class="price old-price">-7000 грн</span>
+								<span class="price new-price">6000 грн</span>
+							</div>
+						</a>
+					</div>
+					<div class="product-row">
+						<a href="#" class="item-box">
+							<span class="disc-precent">-30%</span>
+							<div class="item-img__wrap">
+								<img src="catalog/err.png" alt="" class="item-img">
+							</div>
+							<span class="item-discr">Кольцо с брилиантами и аметистом</span>
+							<div class="price-wrap">
+								<span class="price old-price">-12000 грн</span>
+								<span class="price new-price">9000 грн</span>
+							</div>
+						</a>
+						<a href="#" class="item-box">
+							<span class="disc-precent">-40%</span>
+							<div class="item-img__wrap">
+								<img src="catalog/ring.png" alt="" class="item-img">
+							</div>
+							<span class="item-discr">Кольцо с брилиантами и аметистом</span>
+							<div class="price-wrap">
+								<span class="price old-price">-7000 грн</span>
+								<span class="price new-price">6000 грн</span>
+							</div>
+						</a>
+						<a href="#" class="item-box">
+							<span class="disc-precent">-30%</span>
+							<div class="item-img__wrap">
+								<img src="catalog/err.png" alt="" class="item-img">
+							</div>
+							<span class="item-discr">Кольцо с брилиантами и аметистом</span>
+							<div class="price-wrap">
+								<span class="price old-price">-12000 грн</span>
+								<span class="price new-price">9000 грн</span>
+							</div>
+						</a>
+						<a href="#" class="item-box">
+							<span class="disc-precent">-15%</span>
+							<div class="item-img__wrap">
+								<img src="catalog/two-rings.png" alt="" class="item-img">
+							</div>
+							<span class="item-discr">Кольцо с брилиантами и аметистом</span>
+							<div class="price-wrap">
+								<span class="price old-price">-9500 грн</span>
+								<span class="price new-price">8500 грн</span>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="sale-catalog-slide sale-catalog-slide2">
+					<div class="product-row">
+						<a href="#" class="item-box">
+							<span class="disc-precent">-40%</span>
+							<div class="item-img__wrap">
+								<img src="catalog/ring.png" alt="" class="item-img">
+							</div>
+							<span class="item-discr">Кольцо с брилиантами и аметистом</span>
+							<div class="price-wrap">
+								<span class="price old-price">-7000 грн</span>
+								<span class="price new-price">6000 грн</span>
+							</div>
+						</a>
+						<a href="#" class="item-box">
+							<span class="disc-precent">-30%</span>
+							<div class="item-img__wrap">
+								<img src="catalog/err.png" alt="" class="item-img">
+							</div>
+							<span class="item-discr">Кольцо с брилиантами и аметистом</span>
+							<div class="price-wrap">
+								<span class="price old-price">-12000 грн</span>
+								<span class="price new-price">9000 грн</span>
+							</div>
+						</a>
+						<a href="#" class="item-box">
+							<span class="disc-precent">-15%</span>
+							<div class="item-img__wrap">
+								<img src="catalog/two-rings.png" alt="" class="item-img">
+							</div>
+							<span class="item-discr">Кольцо с брилиантами и аметистом</span>
+							<div class="price-wrap">
+								<span class="price old-price">-9500 грн</span>
+								<span class="price new-price">8500 грн</span>
+							</div>
+						</a>
+						<a href="#" class="item-box">
+							<span class="disc-precent">-40%</span>
+							<div class="item-img__wrap">
+								<img src="catalog/ring.png" alt="" class="item-img">
+							</div>
+							<span class="item-discr">Кольцо с брилиантами и аметистом</span>
+							<div class="price-wrap">
+								<span class="price old-price">-7000 грн</span>
+								<span class="price new-price">6000 грн</span>
+							</div>
+						</a>
+					</div>
+					<div class="product-row">
+						<a href="#" class="item-box">
+							<span class="disc-precent">-30%</span>
+							<div class="item-img__wrap">
+								<img src="catalog/err.png" alt="" class="item-img">
+							</div>
+							<span class="item-discr">Кольцо с брилиантами и аметистом</span>
+							<div class="price-wrap">
+								<span class="price old-price">-12000 грн</span>
+								<span class="price new-price">9000 грн</span>
+							</div>
+						</a>
+						<a href="#" class="item-box">
+							<span class="disc-precent">-40%</span>
+							<div class="item-img__wrap">
+								<img src="catalog/ring.png" alt="" class="item-img">
+							</div>
+							<span class="item-discr">Кольцо с брилиантами и аметистом</span>
+							<div class="price-wrap">
+								<span class="price old-price">-7000 грн</span>
+								<span class="price new-price">6000 грн</span>
+							</div>
+						</a>
+						<a href="#" class="item-box">
+							<span class="disc-precent">-30%</span>
+							<div class="item-img__wrap">
+								<img src="catalog/err.png" alt="" class="item-img">
+							</div>
+							<span class="item-discr">Кольцо с брилиантами и аметистом</span>
+							<div class="price-wrap">
+								<span class="price old-price">-12000 грн</span>
+								<span class="price new-price">9000 грн</span>
+							</div>
+						</a>
+						<a href="#" class="item-box">
+							<span class="disc-precent">-15%</span>
+							<div class="item-img__wrap">
+								<img src="catalog/two-rings.png" alt="" class="item-img">
+							</div>
+							<span class="item-discr">Кольцо с брилиантами и аметистом</span>
+							<div class="price-wrap">
+								<span class="price old-price">-9500 грн</span>
+								<span class="price new-price">8500 грн</span>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="sale-catalog-slide sale-catalog-slide3">
+					<div class="product-row">
+						<a href="#" class="item-box">
+							<span class="disc-precent">-40%</span>
+							<div class="item-img__wrap">
+								<img src="catalog/ring.png" alt="" class="item-img">
+							</div>
+							<span class="item-discr">Кольцо с брилиантами и аметистом</span>
+							<div class="price-wrap">
+								<span class="price old-price">-7000 грн</span>
+								<span class="price new-price">6000 грн</span>
+							</div>
+						</a>
+						<a href="#" class="item-box">
+							<span class="disc-precent">-30%</span>
+							<div class="item-img__wrap">
+								<img src="catalog/err.png" alt="" class="item-img">
+							</div>
+							<span class="item-discr">Кольцо с брилиантами и аметистом</span>
+							<div class="price-wrap">
+								<span class="price old-price">-12000 грн</span>
+								<span class="price new-price">9000 грн</span>
+							</div>
+						</a>
+						<a href="#" class="item-box">
+							<span class="disc-precent">-15%</span>
+							<div class="item-img__wrap">
+								<img src="catalog/two-rings.png" alt="" class="item-img">
+							</div>
+							<span class="item-discr">Кольцо с брилиантами и аметистом</span>
+							<div class="price-wrap">
+								<span class="price old-price">-9500 грн</span>
+								<span class="price new-price">8500 грн</span>
+							</div>
+						</a>
+						<a href="#" class="item-box">
+							<span class="disc-precent">-40%</span>
+							<div class="item-img__wrap">
+								<img src="catalog/ring.png" alt="" class="item-img">
+							</div>
+							<span class="item-discr">Кольцо с брилиантами и аметистом</span>
+							<div class="price-wrap">
+								<span class="price old-price">-7000 грн</span>
+								<span class="price new-price">6000 грн</span>
+							</div>
+						</a>
+					</div>
+					<div class="product-row">
+						<a href="#" class="item-box">
+							<span class="disc-precent">-30%</span>
+							<div class="item-img__wrap">
+								<img src="catalog/err.png" alt="" class="item-img">
+							</div>
+							<span class="item-discr">Кольцо с брилиантами и аметистом</span>
+							<div class="price-wrap">
+								<span class="price old-price">-12000 грн</span>
+								<span class="price new-price">9000 грн</span>
+							</div>
+						</a>
+						<a href="#" class="item-box">
+							<span class="disc-precent">-40%</span>
+							<div class="item-img__wrap">
+								<img src="catalog/ring.png" alt="" class="item-img">
+							</div>
+							<span class="item-discr">Кольцо с брилиантами и аметистом</span>
+							<div class="price-wrap">
+								<span class="price old-price">-7000 грн</span>
+								<span class="price new-price">6000 грн</span>
+							</div>
+						</a>
+						<a href="#" class="item-box">
+							<span class="disc-precent">-30%</span>
+							<div class="item-img__wrap">
+								<img src="catalog/err.png" alt="" class="item-img">
+							</div>
+							<span class="item-discr">Кольцо с брилиантами и аметистом</span>
+							<div class="price-wrap">
+								<span class="price old-price">-12000 грн</span>
+								<span class="price new-price">9000 грн</span>
+							</div>
+						</a>
+						<a href="#" class="item-box">
+							<span class="disc-precent">-15%</span>
+							<div class="item-img__wrap">
+								<img src="catalog/two-rings.png" alt="" class="item-img">
+							</div>
+							<span class="item-discr">Кольцо с брилиантами и аметистом</span>
+							<div class="price-wrap">
+								<span class="price old-price">-9500 грн</span>
+								<span class="price new-price">8500 грн</span>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="sale-catalog-slide sale-catalog-slide4">
+					<div class="product-row">
+						<a href="#" class="item-box">
+							<span class="disc-precent">-40%</span>
+							<div class="item-img__wrap">
+								<img src="catalog/ring.png" alt="" class="item-img">
+							</div>
+							<span class="item-discr">Кольцо с брилиантами и аметистом</span>
+							<div class="price-wrap">
+								<span class="price old-price">-7000 грн</span>
+								<span class="price new-price">6000 грн</span>
+							</div>
+						</a>
+						<a href="#" class="item-box">
+							<span class="disc-precent">-30%</span>
+							<div class="item-img__wrap">
+								<img src="catalog/err.png" alt="" class="item-img">
+							</div>
+							<span class="item-discr">Кольцо с брилиантами и аметистом</span>
+							<div class="price-wrap">
+								<span class="price old-price">-12000 грн</span>
+								<span class="price new-price">9000 грн</span>
+							</div>
+						</a>
+						<a href="#" class="item-box">
+							<span class="disc-precent">-15%</span>
+							<div class="item-img__wrap">
+								<img src="catalog/two-rings.png" alt="" class="item-img">
+							</div>
+							<span class="item-discr">Кольцо с брилиантами и аметистом</span>
+							<div class="price-wrap">
+								<span class="price old-price">-9500 грн</span>
+								<span class="price new-price">8500 грн</span>
+							</div>
+						</a>
+						<a href="#" class="item-box">
+							<span class="disc-precent">-40%</span>
+							<div class="item-img__wrap">
+								<img src="catalog/ring.png" alt="" class="item-img">
+							</div>
+							<span class="item-discr">Кольцо с брилиантами и аметистом</span>
+							<div class="price-wrap">
+								<span class="price old-price">-7000 грн</span>
+								<span class="price new-price">6000 грн</span>
+							</div>
+						</a>
+					</div>
+					<div class="product-row">
+						<a href="#" class="item-box">
+							<span class="disc-precent">-30%</span>
+							<div class="item-img__wrap">
+								<img src="catalog/err.png" alt="" class="item-img">
+							</div>
+							<span class="item-discr">Кольцо с брилиантами и аметистом</span>
+							<div class="price-wrap">
+								<span class="price old-price">-12000 грн</span>
+								<span class="price new-price">9000 грн</span>
+							</div>
+						</a>
+						<a href="#" class="item-box">
+							<span class="disc-precent">-40%</span>
+							<div class="item-img__wrap">
+								<img src="catalog/ring.png" alt="" class="item-img">
+							</div>
+							<span class="item-discr">Кольцо с брилиантами и аметистом</span>
+							<div class="price-wrap">
+								<span class="price old-price">-7000 грн</span>
+								<span class="price new-price">6000 грн</span>
+							</div>
+						</a>
+						<a href="#" class="item-box">
+							<span class="disc-precent">-30%</span>
+							<div class="item-img__wrap">
+								<img src="catalog/err.png" alt="" class="item-img">
+							</div>
+							<span class="item-discr">Кольцо с брилиантами и аметистом</span>
+							<div class="price-wrap">
+								<span class="price old-price">-12000 грн</span>
+								<span class="price new-price">9000 грн</span>
+							</div>
+						</a>
+						<a href="#" class="item-box">
+							<span class="disc-precent">-15%</span>
+							<div class="item-img__wrap">
+								<img src="catalog/two-rings.png" alt="" class="item-img">
+							</div>
+							<span class="item-discr">Кольцо с брилиантами и аметистом</span>
+							<div class="price-wrap">
+								<span class="price old-price">-9500 грн</span>
+								<span class="price new-price">8500 грн</span>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="arrows">
+				<span class="arrow ar-prew2 slick-arrow" style="">❮</span>
+				<span class="arrow ar-next2 slick-arrow" style="">❯</span>
+			</div>
 		</div>
 	</section>
-	<section class="contacts">
-		<h2 class="section-head contacts-head">КОНТАКТЫ</h2>
-		<div class="contacts-wrapper">
-			<a href="#" class="contact-link">
-				<img src="" alt="" class="contact-icon">
-				<span class="contact-text">УКРАИНА, КИЕВ</span>
-			</a>
-			<a href="#" class="contact-link">
-				<img src="" alt="" class="contact-icon">
-				<span class="contact-text">daryagaponenko88@gmai.com</span>
-			</a>
-			<a href="#" class="contact-link">
-				<img src="" alt="" class="contact-icon">
-				<span class="contact-text">+38(050) 258 15 25</span>
-			</a>
+	<section class="category-sec">
+		<div class="category-wrap">
+			<div class="cat-box jewel-cat">
+				<div class="jewel-cat__top">
+					<h2 class="category-head">Ювелирные украшения</h2>
+					<div class="category-img-wrap">
+						<img src="img/cat-jewel.png" alt="" class="category-img">
+					</div>
+				</div>
+				<div class="jewel-cat__menu">
+					<a href="#" class="cat-lis__link"><span>Кольца</span></a>
+					<a href="#" class="cat-lis__link"><span>Браслеты</span></a>
+					<a href="#" class="cat-lis__link"><span>Кулоны</span></a>
+					<a href="#" class="cat-lis__link"><span>Обручальные кольца</span></a>
+					<a href="#" class="cat-lis__link"><span>Цепочки</span></a>
+					<a href="#" class="cat-lis__link"><span>Серьги</span></a>
+				</div>
+			</div>
+			<div class="cat-box metal-cat">
+				<div class="jewel-cat__top">
+					<h2 class="category-head">Металлы</h2>
+					<div class="category-img-wrap">
+						<img src="img/cat-metal.png" alt="" class="category-img">
+					</div>
+				</div>
+				<div class="jewel-cat__menu">
+					<a href="#" class="cat-lis__link">Золото 585</a>
+					<a href="#" class="cat-lis__link">Серебро 925</a>
+					<a href="#" class="cat-lis__link">Бронза</a>
+					<a href="#" class="cat-lis__link">Золото 750</a>
+					<a href="#" class="cat-lis__link">Серебро 875</a>
+					<a href="#" class="cat-lis__link">Латунь</a>
+				</div>
+			</div>
 		</div>
-	</section>
-	<footer class="footer">
-		<div class="copyright-wrapper">
-			<a href="#" class="desighnet-by">Дизайн: Далрья Гапоненко</a>
-			<a href="#" class="developt-by">Реализация: Gretex Web Development</a>
-			<span class="deffence">© Все права защищены / 2018 г</span>
+	</div>
+</section>
+<section class="email-sender">
+	<div class="sender-wrap">
+		<img src="img/goldbank.png" alt="goldbank" class="sender-img">
+		<h2 class="sender-head">Подписаться <br>на рассылку новостей</h2>
+		<form action="" class="send-form">
+			<input type="text" class="serch-input" placeholder="Введите E-mail">
+			<button class="search-btn">
+				<span class="sender-submit"></span>
+			</button>
+		</form>
+	</div>
+</section>
+<section class="news">
+	<h2 class="section-head">Новости / Блог</h2>
+	<div class="allnews-wrap">	
+		<a href="#" class="allnews-link">все новости</a>
+	</div>
+	<div class="news-wrap">
+		<div class="news-box">
+			<div class="news-img-wrap">
+				<img src="img/news1.jpg" alt="" class="news-img">
+			</div>
+			<h2 class="news-head">ЗАГОЛОВОК НОВОСТИ ЗДЕСЬ</h2>
+			<span class="underline"></span>
+			<p class="news-discr">Текст страници новости в две
+			строки будет находиться здесь...</p>
+			<a href="#" class="read-more">ЧИТАТЬ ДАЛЬШЕ</a>
 		</div>
-	</footer>
-	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
-	<script type="text/javascript" src="slick/slick.min.js"></script>
-	<script type="text/javascript" src="js/js.js"></script>
+		<div class="news-box">
+			<div class="news-img-wrap">
+				<img src="img/news2.jpg" alt="" class="news-img">
+			</div>
+			<h2 class="news-head">ЗАГОЛОВОК НОВОСТИ ЗДЕСЬ</h2>
+			<span class="underline"></span>
+			<p class="news-discr">Текст страници новости в две
+			строки будет находиться здесь...</p>
+			<a href="#" class="read-more">ЧИТАТЬ ДАЛЬШЕ</a>
+		</div>
+		<div class="news-box">
+			<div class="news-img-wrap">
+				<img src="img/news3.jpg" alt="" class="news-img">
+			</div>
+			<h2 class="news-head">ЗАГОЛОВОК НОВОСТИ ЗДЕСЬ</h2>
+			<span class="underline"></span>
+			<p class="news-discr">Текст страници новости в две
+			строки будет находиться здесь...</p>
+			<a href="#" class="read-more">ЧИТАТЬ ДАЛЬШЕ</a>
+		</div>
+	</div>
+</section>
+<section class="feedback">
+	<span class="feedback-head">Есть вопросы?</span>
+	<span class="feedback-head">Оставте заявку и мы перезвоним Вам!</span>
+	<div class="feedback-form-wrap">
+		<form action="" class="feedback-form">
+			<input type="text" class="fedback-input" placeholder="Ваше имя">
+			<input type="text" class="fedback-input" placeholder="Телефон">
+			<input type="submit" class="fedback-input feedback-submit">
+		</form>
+	</div>
+</section>
+<footer class="footer">
+	<div class="footer-wrap">
+		<div class="rights">
+			<div class="footer-logo">
+				<a href="#" class="logo-link">GOLD</a>
+			</div>
+			<span class="copyrights">2018г Разработано<br><br> <a href="http://gretex.com.ua/" target="_blank" class="copyrights">Gretex Web Development</a><br>© Все права защищены</span>
+		</div>
+		<div class="footer-menu">
+			<nav class="footer-nav">
+				<a href="#" class="footer-nav__link">О нас</a>
+				<a href="#" class="footer-nav__link">Доставка и оплата</a>
+				<a href="#" class="footer-nav__link">Новости</a>
+				<a href="#" class="footer-nav__link">Контакты</a>
+			</nav>
+			<span class="footer-menu-underline"></span>
+			<nav class="footer-menu-links">
+				<a href="#" class="footer-menu__link">Женщинам</a>
+				<a href="#" class="footer-menu__link">Мужчинам</a>
+				<a href="#" class="footer-menu__link">Детям</a>
+				<a href="#" class="footer-menu__link">Ювелирные украшения</a>
+				<a href="#" class="footer-menu__link">Металлы</a>
+			</nav>
+		</div>
+		<a href="#" class="up-btn-wrap">
+			<img src="img/arr-up.png" alt="" class="arr-up">
+		</a>
+		<div class="footer-social">
+		<div class="tel-footer">
+			<a href="#" class="tel-ft">+38 (050) 833-76-94</a>
+		</div>
+		<span class="we-in">Мы в социальных сетях</span>
+		<nav class="social-nav">
+			<a href="#" class="social-link"><img src="img/inst.png" alt="" class="social-ico"></a>
+			<a href="#" class="social-link"><img src="img/fb.png" alt="" class="social-ico"></a>
+			<a href="#" class="social-link"><img src="img/vk.png" alt="" class="social-ico"></a>
+		</nav>
+	</div>
+	</div>
+</footer>
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script type="text/javascript" src="js/js.js"></script>
 </body>
 </html>

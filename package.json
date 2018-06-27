@@ -8,13 +8,15 @@
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^4.0.0",
     "gulp-consolidate": "^0.2.0",
-    "gulp-sass": "^3.1.0",
     "gulp-iconfont": "^9.0.2",
     "gulp-postcss": "^7.0.0",
+    "gulp-sass": "^3.1.0",
     "gulp-sourcemaps": "^2.6.1",
     "lodash": "^4.17.4"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.1.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
