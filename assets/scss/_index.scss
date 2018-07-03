@@ -93,14 +93,14 @@
 	background-color:#a78e45;
 }
 .ct-menu {
-	max-width: 1170px;
-	margin: 0 auto;
+	border-bottom: 3px solid rgba(0,0,0, 0.1);
 }
 .ct-nav {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin: 10px 0;
+	max-width: 1170px;
+	margin: 10px auto;
 }
 .ct-nav__link {
 	position: relative;
@@ -238,13 +238,13 @@
 }
 .item-box {
 	position: relative;
-	width: 25%;
-	height: 293px;
+	height: 300px;
 	margin:0 10px;
 	box-shadow: 1px 1px 5px #9A9997;
 	border:2px solid #fff;
 	&:hover {
 		border:2px solid #f2d89e;
+		box-shadow: none;
 	}
 }
 .disc-precent {
@@ -260,17 +260,17 @@
 	color: #fff;
 }
 .item-img__wrap {
-	margin-top: 44px;
-	max-height: 132px;
+	margin: 44px auto 0 auto;
+	width: 60%;
 	text-align: center;	
 }
 .item-img {
-	height: 132px;
-	width: auto;
+	height: auto;
+	width: 100%;
 }
 .item-discr {
 	display: block;
-	font-size: 18px;
+	font-size: 16px;
 	padding: 8px 26px;
 	color: #000;
 }
@@ -283,15 +283,15 @@
 .price {
 	text-align: center;
 	width: 50%;
-	padding: 20px 0;
+	padding: 14px 0;
 	color: #000;
 }
 .old-price {
-	font-size: 22px;
+	font-size: 16px;
 	text-decoration: line-through;
 }
 .new-price {
-	font-size: 28px;
+	font-size: 22px;
 	background-color: #fff3c7;
 }
 .sale-catalog-slider {
