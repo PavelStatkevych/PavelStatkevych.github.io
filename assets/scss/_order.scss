@@ -1,0 +1,152 @@
+.order-issue-wrapper {
+	max-width: 1170px;
+	margin: 70px auto 90px auto;
+	display: flex;
+	justify-content: space-between;
+}
+.side-container {
+	width: 45%;
+}
+.issue-form {
+	width: 90%;
+}
+.issue-inp {
+	display: block;
+	width: 100%;
+	padding: 25px;
+	border:2px solid #F2D89E;
+	margin: 20px 0;
+	&::placeholder {
+		color:#130e02;
+		letter-spacing: 3px;
+		font-size: 18px;
+	}
+}
+.issue-head {
+	position: relative;
+	font-size: 30px;
+	font-weight: 100;
+	&:first-child:after {
+		content:url(../../img/head-ico2.png);
+		margin-left: 10px;
+	}
+}
+.example {
+	font-family: Roboto-Regular_0;
+	color: #9C9B9B;
+	font-size: 16px;
+}
+.email-check-wrap {
+	margin-top: -10px;
+	display: block;
+}
+.check-order-head {
+	margin-top: 0;
+	font-size: 30px;
+	font-weight: 100;
+}
+.form-head {
+	font-size: 18px;
+	margin-left: 20px;	
+}
+.check-wrap {
+	margin: 20px 0;
+}
+.confirm-order {
+	padding: 20px 52px;
+	letter-spacing: 2px;
+	border:2px solid #F2D89E;
+	background-color: #140E01;
+	color:#fff;
+	cursor: pointer;
+	&:hover {
+		background-color: #fff;
+		color:#140E01;
+	}
+}
+.check-order-wrap {
+	width: 45%;
+	border:2px solid #F2D89E;
+	box-shadow: 1px 1px 10px 1px #EAEAEA;
+	padding: 30px;
+}
+.choose-item {
+	display: flex;
+	align-items: center;
+}
+.choose-img {
+	box-shadow: 1px 1px 10px 1px #EAEAEA;
+	height: 115px;
+	width: 115px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 30px 30px 30px 0;
+	img {
+		width: 50%;
+	}
+}
+.choose-item-discr {
+	max-width: 300px;
+	font-size: 18px;
+}
+.quantity  {
+	display: flex;
+}
+.qty {
+	margin: 0;
+	padding: 0;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	background-color: #A78E45;
+	border:none;
+	color:#fff;
+}
+.use-btn {
+	margin: 0;
+	padding: 0;
+	width: 30px;
+	height: 30px;
+	font-size: 20px;
+	font-weight: bold;
+	border:none;
+	cursor: pointer;
+	background-color:#FFF3C7;
+}
+.minus {
+	margin-left: 15px;
+}
+.val {
+	font-weight: bold;
+	font-size: 20px;
+}
+.size-options {
+	margin: 5px 0 0 20px;
+	width: 80px;
+	height: 30px;
+	border:none;
+	cursor: pointer;
+	background-color:#FFF3C7;
+	padding-left: 10px;
+	font-weight: bold;
+	option {
+		font-weight: bold;
+	}
+}
+.choose-item-price-wrap {
+	display: flex;
+	align-items: center;
+	margin: 30px 0;
+}
+.choose-item-price {
+	display: block;
+	font-size: 18px;
+	width: 160px;
+	border-bottom: 2px dashed #f2d89e;
+	padding-bottom: 5px;
+}
+.choose-item-sum {
+	font-family: Roboto-Regular_0;
+	font-size: 30px;
+}

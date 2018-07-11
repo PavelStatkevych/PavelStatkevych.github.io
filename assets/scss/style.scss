@@ -1,9 +1,34 @@
+@import 'order';
 @import 'catalog';
 @import 'index';
-
+@font-face {
+	font-family: GOTHIC;
+	src: url(../../fonts/GOTHIC.ttf);
+}
+@font-face {
+	font-family: GOTHICB;
+	src: url(../../fonts/GOTHICB.ttf);
+}
+@font-face {
+	font-family: Roboto-Bold_0;
+	src: url(../../fonts/Roboto-Bold_0.ttf);
+}
+@font-face {
+	font-family: Roboto-Light_0;
+	src: url(../../fonts/Roboto-Light_0.ttf);
+}
+@font-face {
+	font-family: Roboto-Medium_0;
+	src: url(../../fonts/Roboto-Medium_0.ttf);
+}
+@font-face {
+	font-family: Roboto-Regular_0;
+	src: url(../../fonts/Roboto-Regular_0.ttf);
+}
 * {
-  box-sizing: border-box;
-  outline: none;
-  text-decoration:none;
-  transition: all 0.3s ease;
+	font-family: GOTHIC;
+	box-sizing: border-box;
+	outline: none;
+	text-decoration:none;
+	transition: all 0.3s ease;
 }

@@ -9,7 +9,8 @@
 	margin: 70px auto 20px auto;
 }
 .cat-head-name {
-	font-size: 30px; 
+	font-size: 30px;
+	font-weight: 100;
 }
 .catalog {
 	width: 80%;
@@ -100,6 +101,30 @@
 	padding: 10px 10px 0 10px;
 	&:last-child {
 		padding-bottom: 10px;
+	}
+}
+.item-box-catalog {
+	position: relative;
+	height: 300px;
+	margin:0 10px;
+	box-shadow: 1px 1px 5px #9A9997;
+	border:2px solid #fff;
+	transition: all 0.2s ease;
+	&:hover {
+		border:2px solid #f2d89e;
+		box-shadow: none;
+	}
+	&:hover .item-discr {
+		visibility: hidden;
+	}
+	&:hover .price-wrap {
+		bottom: 53px;
+	}
+	&:hover .to-buy {
+		height: 53px;
+	}
+	&:active .to-buy {
+		background-color: #D0994A;
 	}
 }
 /*********RANGE********/
