@@ -1045,31 +1045,31 @@ input[type=range]::-moz-range-thumb {
   margin: 0 10px; }
 
 @font-face {
-  font-family: GOTHIC;
-  src: url(../../fonts/GOTHIC.ttf); }
+  font-family: gothic;
+  src: url("../../fonts/gothic.ttf"); }
 
 @font-face {
-  font-family: GOTHICB;
-  src: url(../../fonts/GOTHICB.ttf); }
+  font-family: gothicb;
+  src: url("../../fonts/gothicb.ttf"); }
 
 @font-face {
   font-family: Roboto-Bold_0;
-  src: url(../../fonts/Roboto-Bold_0.ttf); }
+  src: url("../../fonts/Roboto-Bold_0.ttf"); }
 
 @font-face {
   font-family: Roboto-Light_0;
-  src: url(../../fonts/Roboto-Light_0.ttf); }
+  src: url("../../fonts/Roboto-Light_0.ttf"); }
 
 @font-face {
   font-family: Roboto-Medium_0;
-  src: url(../../fonts/Roboto-Medium_0.ttf); }
+  src: url("../../fonts/Roboto-Medium_0.ttf"); }
 
 @font-face {
   font-family: Roboto-Regular_0;
-  src: url(../../fonts/Roboto-Regular_0.ttf); }
+  src: url("../../fonts/Roboto-Regular_0.ttf"); }
 
 * {
-  font-family: GOTHIC;
+  font-family: gothic;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   outline: none;
