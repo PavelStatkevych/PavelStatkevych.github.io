@@ -7,6 +7,9 @@
 	font-family: MuseoSansCyrl;
     src: url('../../fonts/MuseoSansCyrl.otf');
 }
+/*body {
+	overflow: hidden;
+}*/
 * {
   box-sizing: border-box;
   outline: none;
@@ -15,4 +18,5 @@
   transition: all 0.2s ease-in-out;
   margin: 0;
   padding: 0;
+  list-style: none;
 }
