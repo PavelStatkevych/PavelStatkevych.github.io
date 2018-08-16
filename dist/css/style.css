@@ -7,6 +7,11 @@
   max-width: 1170px;
   margin: 0 auto; }
 
+.title {
+  font-size: 60px;
+  font-family: Bebas_Neue, Arial, sans-serif;
+  text-transform: uppercase; }
+
 /***********top block*************/
 .main {
   /*height: 800px;*/
@@ -45,7 +50,7 @@
   position: relative; }
 
 .main-title {
-  font-family: Bebas_Neue;
+  font-family: Bebas_Neue, Arial, sans-serif;
   font-size: 80px;
   line-height: 91px;
   color: #fff;
@@ -117,10 +122,6 @@
   display: flex;
   margin: 120px 0; }
 
-.about--title {
-  font-family: Bebas_Neue;
-  font-size: 60px; }
-
 .about--text {
   font-size: 15px;
   line-height: 26px;
@@ -137,8 +138,6 @@
   background: url("../../bg-img/main-bg.jpg"); }
 
 .result-title {
-  font-size: 60px;
-  font-family: Bebas_Neue;
   line-height: 65px;
   text-transform: uppercase;
   color: #fff; }
@@ -234,11 +233,6 @@
   position: relative;
   margin: 168px 0 120px 0; }
 
-.industry-title {
-  font-size: 60px;
-  text-transform: uppercase;
-  font-family: Bebas_Neue; }
-
 .quote-black {
   position: relative;
   display: block;
@@ -330,8 +324,6 @@
   padding: 120px 0 80px 0; }
 
 .portfolio-title {
-  font-size: 60px;
-  font-family: Bebas_Neue, Arial, sans-serif;
   color: #fff; }
 
 .portfolio-row {
@@ -396,11 +388,6 @@
 
 .work-wrapper {
   position: relative; }
-
-.work-title {
-  font-size: 60px;
-  text-transform: uppercase;
-  font-family: Bebas_Neue; }
 
 .work-head-wrapper {
   margin: 120px 0 95px 0; }
@@ -486,8 +473,6 @@
   padding: 120px 0 63px 0; }
 
 .proposition-title {
-  font-size: 60px;
-  font-family: Bebas_Neue, Arial, sans-serif;
   color: #fff; }
 
 .proposition-tabs {
@@ -513,6 +498,13 @@
     border-right: 2px solid #FFA741; }
   .prop-tab:first-child {
     margin-left: 0; }
+
+.active-prop-tab {
+  color: #060D1E;
+  background-color: #FFA741;
+  border-top: 2px solid #FFA741;
+  border-left: 2px solid #FFA741;
+  border-right: 2px solid #FFA741; }
 
 .comerc-tap-container {
   margin-top: 100px;
@@ -639,7 +631,116 @@
 /******feedback*******/
 .feedback {
   background-color: #fff;
-  height: 500px; }
+  padding-bottom: 120px;
+  border-bottom: 2px solid #F2F2F2; }
+
+.feedback-items-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.feedback-title {
+  margin: 115px 0 85px 0; }
+
+.feedback-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  margin-right: 30px;
+  border-bottom: 2px solid #FFB054; }
+
+.person-img {
+  min-height: 100px;
+  min-width: 100px;
+  background-color: #000;
+  margin: 0 40px 60px 0; }
+
+.fb-title {
+  font-size: 22px;
+  font-weight: bold; }
+
+.fb-comp-name {
+  font-size: 15px;
+  color: #9EA0A5;
+  margin-left: 20px; }
+
+.fb-text {
+  display: block;
+  font-size: 15px;
+  color: #9EA0A5;
+  line-height: 26px;
+  margin-top: 30px; }
+
+/******clients******/
+.clients-title {
+  margin: 115px 0 85px 0; }
+
+.clients-wrapper {
+  padding-bottom: 120px; }
+
+.clients-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 60px; }
+  .clients-row:first-child {
+    margin-top: 0; }
+
+.client {
+  width: 25%; }
+
+/*******ready**********/
+.ready {
+  background: url("../../bg-img/ft-bg.jpg") no-repeat;
+  background-size: cover; }
+
+.ready-title {
+  padding: 115px 0 55px 0;
+  color: #fff; }
+
+.ready-text {
+  display: block;
+  max-width: 450px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 15px;
+  line-height: 26px; }
+
+.ready-order-btn {
+  display: inline-block;
+  color: #FFA741;
+  padding: 27px 43px;
+  border: 2px solid #FFA741;
+  margin: 60px 0 164px 0; }
+
+/***********footer**************/
+.footer {
+  border-top: 2px solid #292F3D; }
+
+.ft-wrapper {
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px 0; }
+
+.ft-tel-wrapper {
+  margin-right: auto; }
+
+.ft-tel {
+  display: block;
+  margin-left: 60px; }
+
+.ft-text {
+  font-size: 12px;
+  color: #fff;
+  margin-left: 30px; }
 
 @font-face {
   font-family: Bebas_Neue;
